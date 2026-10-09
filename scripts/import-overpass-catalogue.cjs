@@ -7,7 +7,10 @@ function importCatalogue(raw,retained,observedAt){
  if(!observedAt||!Number.isFinite(Date.parse(observedAt)))throw Error('Provide the source retrieval timestamp.');
  const fresh={...catalogue(data,'dolomites'),retrievedAt:new Date(observedAt).toISOString()};
  const result=mergeCatalogue(retained,fresh);
- result.sources=[...(retained.sources||[]),{url:'https://overpass-api.de/api/interpreter',sha256:crypto.createHash('sha256').update(raw).digest('hex'),bytes:Buffer.byteLength(raw),retrievedAt:fresh.retrievedAt,status:'retrieved',records:fresh.huts.length}];
+ result.coverageStatus="bounded_osm_records";
+ result.sourceMapTimestamp=data.osm3s?.timestamp_osm_base||null;
+ const hash=crypto.createHash('sha256').update(raw).digest('hex');
+ result.sources=[...(retained.sources||[]).filter(source=>source.sha256!==hash),{url:'https://overpass-api.de/api/interpreter',sha256:hash,bytes:Buffer.byteLength(raw),retrievedAt:fresh.retrievedAt,status:'retrieved',records:fresh.huts.length}];
  return result;
 }
 if(require.main===module){

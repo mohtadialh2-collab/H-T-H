@@ -92,3 +92,15 @@ All pending features above were published to https://traversa-hth-demo.vercel.ap
 - Legacy XML importer preserves existing huts and refuses to overwrite after total source failure.
 - ORS verifies newly discovered OSM hut IDs server-side before routing, using fixed source endpoints and a bounded one-hour cache.
 - Tests: catalogue normalization, partial/duplicate imports, incomplete source rejection, new-hut lookup/cache, plus ORS/Any/itinerary regression suites passed. No new inventory claims: retained catalogue remains 46 huts. Not deployed.
+
+## Feedback and catalogue batch published — 2026-10-09
+Published commit d216d341169552f129c2c4205650ab41546246de; production deployment dpl_CdX2FMdi3UwwVmQxrTGCG2DkLD8J is READY at https://traversa-hth-demo.vercel.app. All 31 unit tests and four browser suites passed before release. Published feature assets match tested source. Live catalogue (46 huts), destination subset (4 huts), ORS configuration and real ORS route returned HTTP 200; invalid destination and repeated-hut requests returned expected HTTP 400. Real ORS leg includes 134 m ascent, 7 m descent and 43 aligned elevation points. Runtime logs contain DEP0169 url.parse() deprecation warnings, with no failed requests in the smoke checks. No url.parse call exists in application source; warning appears to originate in the platform request wrapper. Direct live browser testing remains limited by the environment proxy; full browser flows passed locally. No feature changes remain pending.
+
+## Pending expanded catalogue batch — 2026-10-09
+- Successful bounded Overpass response: 296 named alpine-hut records (267 ways, 28 nodes, 1 relation); all 46 prior records present, 250 additional records. Cortina subset has 55 records.
+- Raw response SHA-256, bytes, retrieval timestamp and OSM base timestamp retained as provenance. Raw source remains in work/catalogue-refresh/overpass.json and is not deployed. No complete-inventory claim.
+- Four nearby same-name pairs flagged as possible duplicates; source identities preserved and hut details explain the uncertainty.
+- Coverage information reflects the loaded destination count and source type; browser regression checks derive catalogue size from the fixture.
+- Added verification for duplicate detection, expanded-ID ORS request acceptance and bounded destination API output. ORS test uses mocked provider geometry; it does not verify a new real walking connection.
+- Not deployed: live production still contains the previous 46-record snapshot.
+- Verification: unit suites and all four browser suites passed with the 296-record snapshot. A read-only live request for Paul Preuss → Re Alberto returned HTTP 503 at the new-ID map verification step. No real route was obtained; the pending retained snapshot avoids that extra lookup after deployment. Real new-hut routing remains a post-deployment check.

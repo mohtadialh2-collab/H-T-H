@@ -3,7 +3,7 @@
 Regional Dolomites hut explorer and mapped-trail route planner, deployed at https://traversa-hth-demo.vercel.app.
 
 ## Working features
-- Retained, searchable catalogue of 46 source-reported OSM huts; Dolomites, Cortina and Cinque Torri destination views, elevation and route-corridor filters.
+- Retained, searchable catalogue of 296 source-reported OSM hut records; Dolomites, Cortina and Cinque Torri destination views, elevation and route-corridor filters.
 - Interactive locally bundled Leaflet topographic/satellite map, source links, phone and reported bed/opening records where present.
 - Real connected OSM trail geometry using Dijkstra routing; no straight-line hut connectors. Choose successive huts to assemble a plan.
 - Mapped distance; Open-Meteo 90 m DEM elevation profile, estimated ascent/descent and Naismith-style time when the provider works.
@@ -11,7 +11,7 @@ Regional Dolomites hut explorer and mapped-trail route planner, deployed at http
 - Vercel Node 24 APIs for catalogue, bounded route geometry and elevation; no API keys required.
 
 ## Coverage and interpretation
-This is still a demo, not Phase 1 completion. The regional OSM import was quota-limited: 46 indexed huts is not the full Dolomites inventory. Source-cell coverage and hashes are retained in demo/data/dolomites.json. The legacy XML importer excludes relation-only huts; the Overpass importer supports nodes, ways and relations. The region uses a bounding box, not an official boundary. Unknown records remain visible. Live Overpass refresh is optional; failures preserve the snapshot.
+This is still a demo, not Phase 1 completion. A bounded Overpass refresh on 2026-10-09 expanded the retained catalogue from 46 to 296 named alpine-hut records. These records are not a verified full Dolomites inventory. Four nearby same-name pairs are flagged as possible duplicates, without merging distinct OSM identities. Cortina contains 55 indexed records. Source coverage, retrieval timestamps and hashes are retained in demo/data/dolomites.json. The legacy XML importer excludes relation-only huts; the Overpass importer supports nodes, ways and relations. The region uses a bounding box, not an official boundary. Unknown records remain visible. Live Overpass refresh is optional; failures preserve the snapshot.
 
 Route output is a **mapped trail preview**, not a verified hut-to-hut navigation itinerary. The nearest eligible mapped trail node within 100 m is selected; final gaps to hut building centres are excluded and shown numerically. Known private/no-access paths, via ferrata and excessive recorded SAC difficulty are excluded. Missing difficulty, seasonal restrictions, route closures and current conditions remain unresolved. No accommodation availability or price is asserted.
 

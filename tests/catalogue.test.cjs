@@ -18,3 +18,26 @@ test('new huts are verified by identity before ORS can use them',async()=>{
  global.fetch=async(url,options)=>{calls++;assert.match(options.body.get('data'),/relation\(123\)/);return {ok:true,json:async()=>({elements:[element]})};};
  try{assert.equal(await resolveHut('https://example.com'),null);assert.equal(calls,0);assert.equal((await resolveHut('osm-relation-123')).name,'New hut');assert.equal((await resolveHut('osm-relation-123')).name,'New hut');assert.equal(calls,1);}finally{global.fetch=original;}
 });
+test('possible duplicate hut records are flagged without merging different source identities',()=>{
+ const {flagPossibleDuplicates}=require('../demo/api/_providers');
+ const records=[{id:'a',name:'Same hut',lat:46.5,lng:12.1},{id:'b',name:'Same hut',lat:46.5001,lng:12.1},{id:'c',name:'Same hut',lat:46.6,lng:12.1}];
+ const result=flagPossibleDuplicates(records);assert.equal(result.length,3);assert.deepEqual(result[0].possibleDuplicates,['b']);assert.deepEqual(result[1].possibleDuplicates,['a']);assert.equal(result[2].possibleDuplicates,undefined);assert.equal(records[0].possibleDuplicates,undefined);
+});
+test('expanded retained catalogue huts are accepted by ORS routing without another source lookup',async()=>{
+ const handler=require('../demo/api/ors'),snapshot=require('../demo/data/dolomites.json');
+ const start=snapshot.huts.find(h=>h.id==='osm-way-74495662'),end=snapshot.huts.find(h=>h.id==='osm-way-123811150');
+ assert(start&&end);const previousFetch=global.fetch,previousKey=process.env.ORS_API_KEY;process.env.ORS_API_KEY='test-only';let request;
+ global.fetch=async(url,options)=>{assert.equal(url,'https://api.openrouteservice.org/v2/directions/foot-hiking/geojson');request=JSON.parse(options.body);return {ok:true,json:async()=>({features:[{geometry:{type:'LineString',coordinates:[[start.lng,start.lat,2000],[end.lng,end.lat,2001]]},properties:{summary:{distance:900,duration:900},extras:{traildifficulty:{values:[[0,1,1]]}}}}]})};};
+ const res={setHeader(){},status(code){this.code=code;return this;},json(data){this.data=data;return this;}};
+ try{await handler({method:'GET',query:{start:start.id,end:end.id,difficulty:'any'}},res);assert.equal(res.code,200);assert.equal(res.data.provider,'ors');assert.deepEqual(request.coordinates,[[start.lng,start.lat],[end.lng,end.lat]]);}finally{global.fetch=previousFetch;if(previousKey===undefined)delete process.env.ORS_API_KEY;else process.env.ORS_API_KEY=previousKey;}
+});
+test('expanded snapshot has valid unique IDs and destination API filters every record by bounds',async()=>{
+ const snapshot=require('../demo/data/dolomites.json'),handler=require('../demo/api/catalogue'),{regions}=require('../demo/api/_providers');
+ assert.equal(new Set(snapshot.huts.map(h=>h.id)).size,snapshot.huts.length);
+ assert(snapshot.huts.every(h=>/^osm-(node|way|relation)-[1-9][0-9]*$/.test(h.id)&&Number.isFinite(h.lat)&&Number.isFinite(h.lng)));
+ for(const region of Object.keys(regions)){
+  const [s,w,n,e]=regions[region],expected=snapshot.huts.filter(h=>h.lat>=s&&h.lat<=n&&h.lng>=w&&h.lng<=e);
+  const res={setHeader(){},status(code){this.code=code;return this;},json(data){this.data=data;return this;}};
+  await handler({method:'GET',query:{region}},res);assert.equal(res.code,200);assert.deepEqual(res.data.huts.map(h=>h.id),expected.map(h=>h.id));
+ }
+});

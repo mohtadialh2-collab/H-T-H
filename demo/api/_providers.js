@@ -3,10 +3,21 @@ async function overpass(query){let last;for(const host of ['https://overpass-api
 function safeUrl(value){try{const u=new URL(value);return ['http:','https:'].includes(u.protocol)?u.href:null;}catch{return null;}}
 function facilityDescription(tags){const labels={drinking_water:'Drinking water',shower:'Showers',toilets:'Toilets',internet_access:'Internet',electricity:'Electricity',wheelchair:'Wheelchair access','diet:vegetarian':'Vegetarian meals','diet:vegan':'Vegan meals'};return Object.entries(labels).filter(([key])=>tags[key]).map(([key,label])=>label+': '+tags[key]).join(' · ')||null;}
 function catalogue(data,region){return {region,retrievedAt:new Date().toISOString(),coverage:'OSM alpine_hut records inside the selected bounding box; completeness is not guaranteed.',license:'Open Database License (ODbL) / OpenStreetMap contributors',huts:(data.elements||[]).filter(e=>e.tags?.tourism==='alpine_hut'&&e.tags.name).map(e=>{const c=e.type==='node'?e:e.center;const [south,west,north,east]=regions[region]||[];return ['node','way','relation'].includes(e.type)&&Number.isSafeInteger(e.id)&&e.id>0&&typeof e.tags.name==='string'&&e.tags.name.trim()&&c&&Number.isFinite(c.lat)&&Number.isFinite(c.lon)&&c.lat>=south&&c.lat<=north&&c.lon>=west&&c.lon<=east?{id:`osm-${e.type}-${e.id}`,name:e.tags.name,lat:c.lat,lng:c.lon,height:e.tags.ele?e.tags.ele+' m':'Elevation not recorded',site:safeUrl(e.tags.website||e.tags['contact:website']),phone:e.tags.phone||e.tags['contact:phone']||null,beds:e.tags.beds||null,opening:e.tags.opening_hours||null,facilities:facilityDescription(e.tags),accommodation:'Unconfirmed',source:`https://www.openstreetmap.org/${e.type}/${e.id}`,position:'OSM mapped location / building centre; entrance unreviewed',verification:'source_reported'}:null;}).filter(Boolean).sort((a,b)=>a.name.localeCompare(b.name))};}
+function flagPossibleDuplicates(huts){
+ const distance=require('../graph').distance;
+ const records=huts.map(({possibleDuplicates,...hut})=>({...hut}));
+ for(let i=0;i<records.length;i++)for(let j=i+1;j<records.length;j++){
+  const a=records[i],b=records[j];
+  if(a.name.trim().toLocaleLowerCase()===b.name.trim().toLocaleLowerCase()&&distance([a.lng,a.lat],[b.lng,b.lat])<=150){
+   (a.possibleDuplicates??=[]).push(b.id);(b.possibleDuplicates??=[]).push(a.id);
+  }
+ }
+ return records;
+}
 function mergeCatalogue(retained,fresh){
  if(!fresh.huts.length)throw Error('No valid hut records.');
  const huts=new Map(retained.huts.map(h=>[h.id,h]));
  for(const hut of fresh.huts)huts.set(hut.id,{...hut,lastSeenAt:fresh.retrievedAt});
- return {...retained,...fresh,completeCells:false,coverage:'Merged source-reported OSM huts; retained records are preserved. Completeness and current operation are not guaranteed.',huts:[...huts.values()].sort((a,b)=>a.name.localeCompare(b.name)),retainedCount:retained.huts.filter(h=>!fresh.huts.some(n=>n.id===h.id)).length};
+ return {...retained,...fresh,completeCells:false,coverage:'Merged source-reported OSM huts; retained records are preserved. Completeness and current operation are not guaranteed.',huts:flagPossibleDuplicates([...huts.values()]).sort((a,b)=>a.name.localeCompare(b.name)),retainedCount:retained.huts.filter(h=>!fresh.huts.some(n=>n.id===h.id)).length};
 }
-module.exports={regions,overpass,catalogue,mergeCatalogue};
+module.exports={regions,overpass,catalogue,mergeCatalogue,flagPossibleDuplicates};
