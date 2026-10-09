@@ -1,5 +1,21 @@
 'use strict';
 let tripStops=[],stopDraftReady=false,stopWrite=Promise.resolve(),stopTimer=null,lastPlanSignature='';
+let mapPicking=false;
+$('map').insertAdjacentHTML('afterend','<div class="map-picking"><button class="primary" id="pick-map-huts" aria-pressed="false">Pick huts on map</button><p id="map-pick-help" role="status" hidden></p><button class="text-button" id="restart-map-picks" hidden>Start a new hut selection</button></div>');
+function updateMapPicking(){
+ $('pick-map-huts').setAttribute('aria-pressed',String(mapPicking));$('pick-map-huts').textContent=mapPicking?'Done picking huts':'Pick huts on map';$('pick-map-huts').disabled=planBusy;
+ $('map-pick-help').hidden=!mapPicking;$('restart-map-picks').hidden=!mapPicking;$('restart-map-picks').disabled=planBusy;
+ $('map-pick-help').textContent=`Next hut: ${tripStops.length+1} · click to add`;
+}
+function hutMarkerAppearance(hut){const positions=tripStops.flatMap((h,i)=>h.id===hut.id?[i+1]:[]);return {className:'hut-marker'+(positions.length?' selected-hut-marker':''),html:positions.length>2?positions[0]+'+':positions.length?positions.join('·'):'⌂',iconSize:[positions.length>1?42:32,32],iconAnchor:[positions.length>1?21:16,16]};}
+function selectMapHut(hut){
+ if(!mapPicking){showHut(hut.id);return;}
+ if(planBusy)return notify('Wait for route calculation to finish.');
+ if(tripStops.at(-1)?.id===hut.id)return notify('This hut is already your last stop. Pick the next hut.');
+ tripStops.push(hut);rememberStops();renderStops();syncStart();notify(`Stop ${tripStops.length}: ${hut.name}`);
+}
+$('pick-map-huts').onclick=()=>{if(planBusy)return;mapPicking=!mapPicking;if(mapPicking){view('explore');routeTabs(true);tripMode(false);}updateMapPicking();renderCatalogue();};
+$('restart-map-picks').onclick=()=>{if(planBusy)return;tripStops=[];latestStage=null;rememberStops();renderStops();$('route-result').innerHTML='';notify('Hut selection cleared. Click your first hut on the map.');};
 const pairStart=$('route-start').closest('label'),pairEnd=$('route-end').closest('label');pairStart.hidden=true;pairEnd.hidden=true;
 $('review-panel').insertAdjacentHTML('afterbegin','<p id="pending-stops-warning" class="route-caution" hidden>Your hut list has changed. These are your previous calculated routes. Return to Choose huts and calculate the updated trip.</p>');
 $('build-heading').insertAdjacentHTML('afterend','<div id="trip-stops"></div><button class="outline full" id="append-hut">+ Add another hut</button><p id="stops-status" class="catalogue-status" role="status"></p>');
@@ -13,11 +29,11 @@ function renderStops(){
  document.querySelectorAll('[data-stop]').forEach(select=>select.onchange=()=>{tripStops[Number(select.dataset.stop)]=candidates.find(h=>h.id===select.value);rememberStops();renderStops();syncStart();});
  document.querySelectorAll('[data-stop-remove]').forEach(b=>b.onclick=()=>{if(planBusy)return;tripStops.splice(Number(b.dataset.stopRemove),1);rememberStops();renderStops();syncStart();});
  document.querySelectorAll('[data-stop-detail]').forEach(b=>b.onclick=()=>showHut(tripStops[Number(b.dataset.stopDetail)].id));
- $('append-hut').disabled=planBusy;$('calculate-route').disabled=planBusy||tripStops.length<2;
+ $('append-hut').textContent=tripStops.length?'+ Add another hut':'+ Add a hut';updateMapPicking();$('append-hut').disabled=planBusy;$('calculate-route').disabled=planBusy||tripStops.length<2;renderCatalogue();
 }
 function syncStart(){if(tripStops[0]){$('route-start').value=tripStops[0].id;renderCatalogue();}}
 $('append-hut').onclick=()=>{if(planBusy)return;const last=tripStops.at(-1);const next=ItineraryCore.nearby(planCandidates().filter(h=>h.id!==last?.id),last)[0];if(!next)return notify('Choose a destination with more huts.');tripStops.push(next);rememberStops();renderStops();};
-const stopsRefresh=refreshChoices;refreshChoices=function(){stopsRefresh();if(!tripStops.length&&!plannedStages.length){const start=huts.find(h=>h.id===$('route-start').value);if(start){tripStops=[start];rememberStops();}}renderStops();};
+const stopsRefresh=refreshChoices;refreshChoices=function(){stopsRefresh();renderStops();};
 const stopsRenderPlan=renderPlannedStages;renderPlannedStages=function(){stopsRenderPlan();const signature=stopsSignature();if(signature!==lastPlanSignature){lastPlanSignature=signature;tripStops=plannedStages.length?[plannedStages[0].start,...plannedStages.map(s=>s.end)]:[];rememberStops();}renderStops();};
 const stopsBusy=setPlanBusy;setPlanBusy=function(busy){stopsBusy(busy);renderStops();};
 $('calculate-route').onclick=async()=>{
@@ -30,7 +46,7 @@ $('calculate-route').onclick=async()=>{
  const old=before.find(s=>s.start.id===stops[i].id&&s.end.id===stops[i+1].id&&(s.provider==='ors'?'ors':'mapped')===provider&&s.difficulty===difficulty);
  try{next.push(old?{...old,restAfter:Boolean(before[i]?.start.id===stops[i].id&&before[i]?.end.id===stops[i+1].id&&before[i].restAfter)}:await elevate({...await geometryFor(stops[i],stops[i+1],difficulty,provider),start:stops[i],end:stops[i+1],difficulty}));}catch(e){throw Error(`Leg ${i+1} (${stops[i].name} → ${stops[i+1].name}): ${e.message}`);}
  }
- plannedStages=next;latestStage=null;routePlanChanged();renderPlannedStages();renderRouteMap();syncStart();tripMode(true);$('stops-status').textContent=`${next.length} connected routes ready. Select a day to see its details.`;
+ plannedStages=next;latestStage=null;mapPicking=false;routePlanChanged();renderPlannedStages();renderRouteMap();syncStart();tripMode(true);$('stops-status').textContent=`${next.length} connected routes ready. Select a day to see its details.`;
  }catch(e){$('stops-status').textContent=e.message+' Your previous calculated trip is unchanged.';notify('Could not calculate every leg. Your hut choices and previous trip have been kept.');}
  finally{setPlanBusy(false);}
 };
