@@ -1,7 +1,20 @@
 const graph=require('../graph');
 const catalogue=require('../data/dolomites.json');
+const {overpass,catalogue:normalizeCatalogue}=require('./_providers');
+const resolvedHuts=new Map();
+async function resolveHut(id){
+ id=aliases[id]||id;
+ const retained=catalogue.huts.find(h=>h.id===id);if(retained)return retained;
+ if(typeof id!=='string'||!/^osm-(node|way|relation)-[1-9][0-9]{0,14}$/.test(id))return null;
+ const cached=resolvedHuts.get(id);if(cached&&cached.expires>Date.now())return cached.hut;
+ const [,type,number]=id.split('-');
+ const data=await overpass(`[out:json][timeout:15];${type}(${number});out center tags;`);
+ const hut=normalizeCatalogue(data,'dolomites').huts.find(h=>h.id===id);
+ if(hut){if(resolvedHuts.size>=500)resolvedHuts.delete(resolvedHuts.keys().next().value);resolvedHuts.set(id,{hut,expires:Date.now()+3600000});}
+ return hut||null;
+}
 const aliases={cinque:'osm-way-200335125',scoiattoli:'osm-way-200335135',averau:'osm-way-200335813',nuvolau:'osm-way-200226208'};
-const levels={hiking:1,mountain_hiking:2,demanding_mountain_hiking:3};
+const levels={any:6,hiking:1,mountain_hiking:2,demanding_mountain_hiking:3};
 function normalize(data,start,end,difficulty){
  const feature=data.features?.[0],coords=feature?.geometry?.coordinates,p=feature?.properties,summary=p?.summary;
  if(feature?.geometry?.type!=='LineString'||!Array.isArray(coords)||coords.length<2||coords.length>25000||!coords.every(c=>Array.isArray(c)&&c.length>=2&&c.slice(0,2).every(Number.isFinite)&&c[0]>=11.25&&c[0]<=12.65&&c[1]>=46.05&&c[1]<=46.9)||!summary||!Number.isFinite(summary.distance)||summary.distance<=0||!Number.isFinite(summary.duration)||summary.duration<0)throw Error('ORS returned an invalid route. No stage was added.');
@@ -24,7 +37,9 @@ async function handler(req,res){
  if(!req.query.start&&!req.query.end)return res.status(200).json({configured,provider:'openrouteservice',profile:'foot-hiking'});
  res.setHeader('Cache-Control','no-store');
  if(!configured)return res.status(503).json({error:'ORS is not configured for this deployment. Choose the mapped-trail provider.'});
- const find=id=>catalogue.huts.find(h=>h.id===(aliases[id]||id));const start=find(req.query.start),end=find(req.query.end),difficulty=req.query.difficulty||'mountain_hiking';
+ const difficulty=req.query.difficulty||'mountain_hiking';
+ if(!levels[difficulty])return res.status(400).json({error:'Choose a supported difficulty.'});
+ let start,end;try{[start,end]=await Promise.all([resolveHut(req.query.start),resolveHut(req.query.end)]);}catch{return res.status(503).json({error:'Could not verify a newly discovered hut with the map source. Your plan is preserved. Retry later.'});}
  if(!start||!end||start.id===end.id||!levels[difficulty])return res.status(400).json({error:'Choose two different indexed huts and a supported difficulty.'});
  const coordinates=[[start.lng,start.lat],[end.lng,end.lat]];
  if(graph.distance(...coordinates)>25000)return res.status(422).json({error:'Choose intermediate huts. Individual ORS stages are limited to huts up to 25 km apart.'});
@@ -35,3 +50,5 @@ async function handler(req,res){
  }catch(e){return res.status(422).json({error:e.name==='TimeoutError'||e.name==='AbortError'?'ORS timed out. Retry or choose mapped trails. Your plan is preserved.':e.message?.startsWith('ORS ')?e.message:'The ORS service could not be reached. Your plan is preserved.'});}
 }
 module.exports=handler;module.exports.normalize=normalize;
+
+module.exports.resolveHut=resolveHut;

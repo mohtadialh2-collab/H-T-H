@@ -1,0 +1,3 @@
+const test=require('node:test'),assert=require('node:assert/strict'),graph=require('../demo/graph');
+const nodes={'1':[12,46.5],'2':[12.01,46.5]},start=nodes['1'],end=nodes['2'];
+test('Any recorded difficulty admits demanding trails while existing access and via ferrata exclusions remain',()=>{const way={id:'10',nodes:['1','2'],tags:{highway:'path',sac_scale:'difficult_alpine_hiking'}};assert.throws(()=>graph.route({nodes,ways:[way]},start,end,'mountain_hiking'));assert.equal(graph.route({nodes,ways:[way]},start,end,'any').ways[0].difficulty,'difficult_alpine_hiking');for(const tags of [{access:'private'},{foot:'no'},{via_ferrata:'yes'}])assert.throws(()=>graph.route({nodes,ways:[{...way,tags:{...way.tags,...tags}}]},start,end,'any'));});

@@ -74,3 +74,21 @@ Published to https://traversa-hth-demo.vercel.app at commit f323cb77f7bd1030cb56
 Final persistence/layout fixes: Save trip waits for the saved itinerary and the corresponding browser draft to commit, preventing immediate reload from restoring an older draft. Save controls remain disabled during that operation. Mobile/desktop zoom controls sit below the map-picking toolbar, with a browser check for non-overlapping control bounds.
 
 Final batch verification passed: itinerary/ORS/review/hut-info/export pure checks; the 23-leg UI/save/reload/backup/GPX/offline/print/mobile browser flow; provider comparison/cancellation/elevation fallback/review persistence; saved-trip direct opening, safe switching, group-size persistence, source/elevation filters and mobile map-control spacing. Source hashes and validation are recorded in work/batch-ready.json. No deployment or GitHub main update was performed for this batch.
+
+## Batch published — 2026-10-09
+All pending features above were published to https://traversa-hth-demo.vercel.app. Commit a14f0892aed73e4dd9d1a0b2cb7160969e737f8e; deployment dpl_GagWmh4EXZsXitAyhuD6fF2SZpJW is READY. New UI assets match tested source; catalogue and live ORS routing returned HTTP 200, with ascent/descent and aligned elevation points. Full browser flows passed locally. Catalogue coverage remains partial at 46 retained huts. No further batch is pending.
+
+## New pending feedback fixes — not deployed
+- Reset trip plan is visible in the shared builder/review controls and clears every chosen hut, calculated stage, map number and active draft in one action. Saved trips are retained; cleared drafts commit before the reset completes.
+- Daily ascent has no UI maximum or trip-limit warning. Route ascent/descent estimates remain in overview and exports.
+- Daily distance/time support explicit Any checkboxes. Optional brief preferences include Any for experience, fitness, terrain, accommodation and scenery; blank optional distance/time/budget values represent Any.
+- Maximum recorded difficulty includes Any in local mapped routing, mapped API routing and ORS normalization. Existing access and via-ferrata exclusions in the mapped provider remain; incomplete metadata remains disclosed.
+- Catalogue filters expose Any labels; required trip identity/date/group/hut/provider fields retain concrete values.
+- Any values and selected recorded difficulty persist in drafts/saved trips and are accepted by JSON backup validation. Legacy numeric preferences remain supported.
+
+### Pending catalogue reliability batch
+- Live refresh merges source records with retained huts instead of replacing the inventory. Invalid identities and out-of-region coordinates are excluded.
+- Added offline bounded Overpass importer with node/way/relation support, retrieval evidence, SHA-256 source hashes, atomic writes, and preservation of existing records. Empty/incomplete inputs fail without overwriting the catalogue.
+- Legacy XML importer preserves existing huts and refuses to overwrite after total source failure.
+- ORS verifies newly discovered OSM hut IDs server-side before routing, using fixed source endpoints and a bounded one-hour cache.
+- Tests: catalogue normalization, partial/duplicate imports, incomplete source rejection, new-hut lookup/cache, plus ORS/Any/itinerary regression suites passed. No new inventory claims: retained catalogue remains 46 huts. Not deployed.

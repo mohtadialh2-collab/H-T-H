@@ -21,3 +21,4 @@
 .saved-trip-caution{display:block;color:var(--muted);font-size:11px;line-height:1.6}.trip-body h2{overflow-wrap:anywhere}#start-fresh-trip{margin-top:18px}#review-notes{font:inherit;width:100%;padding:12px;border:1px solid #d4dbcf;border-radius:6px;resize:vertical;color:var(--ink)}
 .map-panel .leaflet-top.leaflet-right{top:145px;right:14px}
 @media(max-width:700px){.map-panel .leaflet-top.leaflet-right{top:130px;right:8px}}
+.optional-limit{flex:1;min-width:0}.optional-limit>label:first-child{font-size:11px}.optional-limit>input{width:100%}.any-limit{display:flex;flex-direction:row;align-items:center;gap:6px;margin:8px 0;font-size:12px}.any-limit input{width:16px;height:16px;margin:0;accent-color:#284e3e}#reset-trip-plan{margin-bottom:14px}#reset-trip-plan:disabled{opacity:.45;cursor:default}

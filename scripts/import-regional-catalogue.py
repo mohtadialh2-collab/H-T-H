@@ -40,10 +40,17 @@ def cell(bbox,depth=0):
         print(f'Cell {key} failed: {str(error)[:100]}',flush=True)
         return [],[{'bbox':bbox,'url':url,'status':'failed','reason':str(error)[:100]}]
 cells=[(round(WEST+i*(EAST-WEST)/5,5),round(SOUTH+j*(NORTH-SOUTH)/3,5),round(WEST+(i+1)*(EAST-WEST)/5,5),round(SOUTH+(j+1)*(NORTH-SOUTH)/3,5)) for j in range(3) for i in range(5)]
-huts={};sources=[]
+retained=json.loads((ROOT/'demo/data/dolomites.json').read_text())
+huts={h['id']:h for h in retained['huts']};sources=[]
 with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
     for found,records in pool.map(cell,cells):
         huts.update({h['id']:h for h in found});sources.extend(records)
 data={'region':'dolomites','retrievedAt':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'bbox':[WEST,SOUTH,EAST,NORTH],'huts':sorted(huts.values(),key=lambda h:h['name']),'coverage':'Named OSM alpine_hut nodes and buildings within a Dolomites bounding box, not an official boundary or guaranteed complete hut inventory. Relation-only huts are not included.','completeCells':all(s['status']=='retrieved' for s in sources),'sources':sources,'license':'OpenStreetMap contributors / Open Database License (ODbL)'}
-(ROOT/'demo/data/dolomites.json').write_text(json.dumps(data,separators=(',',':')))
+if not any(s['status']=='retrieved' for s in sources):
+    raise SystemExit('No source cells retrieved; existing catalogue left unchanged.')
+data['completeCells']=False
+data['coverage']='Merged partial OSM node/building import; existing huts preserved. Relation-only huts require the Overpass importer. Completeness is not guaranteed.'
+data['sources']=retained.get('sources',[])+sources
+output=ROOT/'demo/data/dolomites.json';temporary=output.with_suffix('.json.tmp')
+temporary.write_text(json.dumps(data,separators=(',',':')));temporary.replace(output)
 print(f'Imported {len(huts)} distinct huts; {sum(s["status"]=="retrieved" for s in sources)}/{len(sources)} source cells retrieved.',flush=True)
