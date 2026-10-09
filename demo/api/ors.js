@@ -12,9 +12,10 @@ function normalize(data,start,end,difficulty){
  if(difficultyValues?.some(v=>v[2]>levels[difficulty]))throw Error('ORS found a route above your selected recorded difficulty. Try the mapped-trail provider or different huts.');
  const unknownDifficulty=!difficultyValues?.length||difficultyValues.some(v=>v[2]===0)?1:0;
  const elevations=coords.every(c=>Number.isFinite(c[2]))?coords.map(c=>c[2]):null;
- const sample= elevations?Array.from({length:Math.min(80,elevations.length)},(_,i)=>elevations[Math.round(i*(elevations.length-1)/(Math.min(80,elevations.length)-1))]):null;
- const ascent=Number.isFinite(p.ascent)?p.ascent:p.segments?.every(s=>Number.isFinite(s.ascent))?p.segments.reduce((sum,s)=>sum+s.ascent,0):undefined;
- const descent=Number.isFinite(p.descent)?p.descent:p.segments?.every(s=>Number.isFinite(s.descent))?p.segments.reduce((sum,s)=>sum+s.descent,0):undefined;
+ const sample=elevations;
+ const delta= elevations?elevations.slice(1).reduce((total,h,i)=>{const d=h-elevations[i];if(d>0)total.ascent+=d;else total.descent-=d;return total;},{ascent:0,descent:0}):null;
+ const metric=key=>Number.isFinite(p[key])&&p[key]>=0?p[key]:Number.isFinite(summary[key])&&summary[key]>=0?summary[key]:p.segments?.length&&p.segments.every(s=>Number.isFinite(s[key])&&s[key]>=0)?p.segments.reduce((sum,s)=>sum+s[key],0):delta?.[key];
+ const ascent=metric('ascent'),descent=metric('descent');
  return {provider:'ors',geometry,distanceM:summary.distance,startGapM,endGapM,ways:[],unknownDifficulty,verification:'mapped_trails_unreviewed_hut_access',hours:summary.duration/3600,timeSource:'openrouteservice walking-time estimate',...(sample?{elevation:sample,elevationSource:'openrouteservice elevation model'}:{}),...(ascent>=0?{ascentM:Math.round(ascent)}:{}),...(descent>=0?{descentM:Math.round(descent)}:{}),source:'openrouteservice / OpenStreetMap contributors',sourceUrl:'https://openrouteservice.org/',retrievedAt:new Date().toISOString(),warnings:['ORS provider route; hut approaches, current restrictions and via ferrata exclusion have not been independently verified.','The reported endpoint offsets are not confirmed walking connections.',...(unknownDifficulty?['Some sections have no recorded difficulty.']:[])]};
 }
 async function handler(req,res){

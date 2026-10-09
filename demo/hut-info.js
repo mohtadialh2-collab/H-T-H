@@ -1,0 +1,7 @@
+(function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.HutInfo=api;})(typeof globalThis!=='undefined'?globalThis:this,()=>{
+ const months={Jan:'January',Feb:'February',Mar:'March',Apr:'April',May:'May',Jun:'June',Jul:'July',Aug:'August',Sep:'September',Oct:'October',Nov:'November',Dec:'December'},weekdays={Mo:'Monday',Tu:'Tuesday',We:'Wednesday',Th:'Thursday',Fr:'Friday',Sa:'Saturday',Su:'Sunday'};
+ const notes={'panini alla griglia e bar':'Grilled sandwiches and bar','bevande e snack':'Drinks and snacks','bar':'Bar','ristorante':'Restaurant','camere aperte':'Rooms open'};
+ function opening(value){if(!value)return {lines:['Not recorded — check with the operator.'],original:null};
+ const lines=String(value).split(';').map(part=>{let text=part.trim();if(!/^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|Mo|Tu|We|Th|Fr|Sa|Su|PH|24\/7|off|open|closed)\b/.test(text))return 'Opening details require confirmation with the operator.';text=text.replace(/"([^"]*)"/g,(_,comment)=>'— '+(notes[comment.toLowerCase().trim().replace(/\s+/g,' ')]||'Operator note: see original record'));return text.replace(/\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b/g,m=>months[m]).replace(/\b(Mo|Tu|We|Th|Fr|Sa|Su)\b/g,m=>weekdays[m]).replace(/\b24\/7\b/g,'Open 24 hours, every day').replace(/\boff\b/g,'closed').replace(/\bPH\b/g,'Public holidays').replace(/-/g,'–').replace(/\s+/g,' ').trim();});return {lines,original:String(value)};}
+ return {opening};
+});
