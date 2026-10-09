@@ -14,7 +14,7 @@ renderPlannedStages=function(){
  $('clear-route').hidden=!plannedStages.length;
  document.querySelectorAll('[data-stage]').forEach(b=>b.onclick=()=>{latestStage=plannedStages[Number(b.dataset.stage)];renderStage(latestStage);$('add-stage').hidden=true;if(map)map.fitBounds(latestStage.geometry.map(c=>[c[1],c[0]]),{padding:[70,70]});});
  document.querySelectorAll('[data-edit-stage]').forEach(b=>b.onclick=()=>replaceHutDialog(Number(b.dataset.editStage)));
- document.querySelectorAll('[data-rest-stage]').forEach(b=>b.onclick=()=>{if(planBusy)return;const i=Number(b.dataset.restStage);plannedStages=plannedStages.map((s,index)=>index===i?{...s,restAfter:!s.restAfter}:s);routePlanChanged();renderPlannedStages();});
+ document.querySelectorAll('[data-rest-stage]').forEach(b=>b.onclick=()=>{if(planBusy)return;const i=Number(b.dataset.restStage);plannedStages=plannedStages.map((s,index)=>index===i?{...s,restAfter:!s.restAfter}:s);routePlanChanged();renderPlannedStages();renderRouteMap();});
  document.querySelectorAll('[data-move-stage]').forEach(b=>b.onclick=()=>moveOvernightEarlier(Number(b.dataset.moveStage)));
  if($('save-route-plan'))$('save-route-plan').onclick=saveRoutePlan;
  if($('export-route-plan'))$('export-route-plan').onclick=()=>{if(!capturePlanSettings())return;download([{id:activeRouteTripId||crypto.randomUUID(),createdAt:new Date().toISOString(),updatedAt:new Date().toISOString(),preferences:settingsFromPlan(),stages:plannedStages}]);};

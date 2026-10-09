@@ -1,0 +1,41 @@
+'use strict';
+let tripStops=[],stopDraftReady=false,stopWrite=Promise.resolve(),stopTimer=null,lastPlanSignature='';
+const pairStart=$('route-start').closest('label'),pairEnd=$('route-end').closest('label');pairStart.hidden=true;pairEnd.hidden=true;
+$('review-panel').insertAdjacentHTML('afterbegin','<p id="pending-stops-warning" class="route-caution" hidden>Your hut list has changed. These are your previous calculated routes. Return to Choose huts and calculate the updated trip.</p>');
+$('build-heading').insertAdjacentHTML('afterend','<div id="trip-stops"></div><button class="outline full" id="append-hut">+ Add another hut</button><p id="stops-status" class="catalogue-status" role="status"></p>');
+function stopsSignature(){return JSON.stringify(plannedStages.map(s=>[s.start.id,s.end.id]));}
+function rememberStops(){if(!stopDraftReady||!storageReady)return;clearTimeout(stopTimer);const snapshot=structuredClone(tripStops);stopTimer=setTimeout(()=>{stopWrite=stopWrite.catch(()=>{}).then(()=>write('stopDraft',snapshot)).catch(()=>notify('Could not save hut choices; keep this page open.'));},200);}
+function renderStops(){
+ const savedStops=plannedStages.length?[plannedStages[0].start,...plannedStages.map(s=>s.end)]:[];$('pending-stops-warning').hidden=!plannedStages.length||JSON.stringify(tripStops.map(h=>h.id))===JSON.stringify(savedStops.map(h=>h.id));
+ const candidates=[...new Map([...planCandidates(),...tripStops].map(h=>[h.id,h])).values()];$('build-heading').textContent='Choose your huts in order';$('build-help').textContent='Add as many stops as you need. Calculate the trip, then select any day to see the route between its two huts.';
+ $('calculate-route').textContent=planBusy?'Calculating trip…':'Calculate trip routes →';
+ $('trip-stops').innerHTML=tripStops.map((hut,i)=>{const choices=ItineraryCore.nearby(candidates,tripStops[i-1]||hut);return `<div class="trip-stop"><label>${i===0?'Starting hut':'Hut '+(i+1)}<select data-stop="${i}" ${planBusy?'disabled':''}>${choices.map(h=>`<option value="${esc(h.id)}" ${h.id===hut.id?'selected':''}>${esc(h.name)}</option>`).join('')}</select></label><div class="stop-actions"><button class="text-button" data-stop-detail="${i}">Hut details</button><button class="text-button" data-stop-remove="${i}" aria-label="Remove hut ${i+1}" ${planBusy?'disabled':''}>Remove</button></div></div>`;}).join('');
+ document.querySelectorAll('[data-stop]').forEach(select=>select.onchange=()=>{tripStops[Number(select.dataset.stop)]=candidates.find(h=>h.id===select.value);rememberStops();renderStops();syncStart();});
+ document.querySelectorAll('[data-stop-remove]').forEach(b=>b.onclick=()=>{if(planBusy)return;tripStops.splice(Number(b.dataset.stopRemove),1);rememberStops();renderStops();syncStart();});
+ document.querySelectorAll('[data-stop-detail]').forEach(b=>b.onclick=()=>showHut(tripStops[Number(b.dataset.stopDetail)].id));
+ $('append-hut').disabled=planBusy;$('calculate-route').disabled=planBusy||tripStops.length<2;
+}
+function syncStart(){if(tripStops[0]){$('route-start').value=tripStops[0].id;renderCatalogue();}}
+$('append-hut').onclick=()=>{if(planBusy)return;const last=tripStops.at(-1);const next=ItineraryCore.nearby(planCandidates().filter(h=>h.id!==last?.id),last)[0];if(!next)return notify('Choose a destination with more huts.');tripStops.push(next);rememberStops();renderStops();};
+const stopsRefresh=refreshChoices;refreshChoices=function(){stopsRefresh();if(!tripStops.length&&!plannedStages.length){const start=huts.find(h=>h.id===$('route-start').value);if(start){tripStops=[start];rememberStops();}}renderStops();};
+const stopsRenderPlan=renderPlannedStages;renderPlannedStages=function(){stopsRenderPlan();const signature=stopsSignature();if(signature!==lastPlanSignature){lastPlanSignature=signature;tripStops=plannedStages.length?[plannedStages[0].start,...plannedStages.map(s=>s.end)]:[];rememberStops();}renderStops();};
+const stopsBusy=setPlanBusy;setPlanBusy=function(busy){stopsBusy(busy);renderStops();};
+$('calculate-route').onclick=async()=>{
+ if(planBusy||tripStops.length<2)return;
+ const stops=structuredClone(tripStops),provider=$('routing-provider').value,difficulty=$('route-difficulty').value;
+ if(stops.some((h,i)=>i&&h.id===stops[i-1].id))return notify('Consecutive huts must be different. Remove or change the repeated stop.');
+ const before=plannedStages;setPlanBusy(true);$('route-result').innerHTML='';
+ try{const next=[];for(let i=0;i<stops.length-1;i++){
+ $('stops-status').textContent=`Calculating leg ${i+1} of ${stops.length-1}: ${stops[i].name} → ${stops[i+1].name}…`;
+ const old=before.find(s=>s.start.id===stops[i].id&&s.end.id===stops[i+1].id&&(s.provider==='ors'?'ors':'mapped')===provider&&s.difficulty===difficulty);
+ try{next.push(old?{...old,restAfter:Boolean(before[i]?.start.id===stops[i].id&&before[i]?.end.id===stops[i+1].id&&before[i].restAfter)}:await elevate({...await geometryFor(stops[i],stops[i+1],difficulty,provider),start:stops[i],end:stops[i+1],difficulty}));}catch(e){throw Error(`Leg ${i+1} (${stops[i].name} → ${stops[i+1].name}): ${e.message}`);}
+ }
+ plannedStages=next;latestStage=null;routePlanChanged();renderPlannedStages();renderRouteMap();syncStart();tripMode(true);$('stops-status').textContent=`${next.length} connected routes ready. Select a day to see its details.`;
+ }catch(e){$('stops-status').textContent=e.message+' Your previous calculated trip is unchanged.';notify('Could not calculate every leg. Your hut choices and previous trip have been kept.');}
+ finally{setPlanBusy(false);}
+};
+const stopsShowHut=showHut;showHut=function(id){const saved=planCandidates().find(h=>h.id===id);let added=false;if(saved&&!huts.some(h=>h.id===id)){huts.push(saved);added=true;}stopsShowHut(id);if(added)huts.pop();if($('route-from-hut'))$('route-from-hut').onclick=()=>{if(planBusy)return;tripStops=[saved];rememberStops();$('detail').close();view('explore');routeTabs(true);tripMode(false);renderStops();syncStart();};if($('route-to-hut'))$('route-to-hut').onclick=()=>{if(planBusy)return;if(tripStops.at(-1)?.id===id)return notify('This hut is already your last stop.');tripStops.push(saved);rememberStops();$('detail').close();view('explore');routeTabs(true);tripMode(false);renderStops();};};
+const stopsShowTrip=showTrip;showTrip=function(t){stopsShowTrip(t);if($('restore-route')){const restore=$('restore-route').onclick;$('restore-route').onclick=()=>{restore();tripStops=[plannedStages[0].start,...plannedStages.map(s=>s.end)];lastPlanSignature=stopsSignature();rememberStops();renderStops();};}};
+const stopsClear=$('clear-route').onclick;$('clear-route').onclick=()=>{if(planBusy)return;stopsClear();tripStops=[];rememberStops();renderStops();tripMode(false);};
+async function restoreStopDraft(){for(let i=0;i<100&&(!storageReady||!localNetwork);i++)await new Promise(r=>setTimeout(r,20));try{const draft=storageReady?await read('stopDraft'):null;if(Array.isArray(draft)&&draft.every(h=>h&&typeof h.id==='string'&&typeof h.name==='string'&&Number.isFinite(h.lat)&&Number.isFinite(h.lng)))tripStops=draft;else if(plannedStages.length)tripStops=[plannedStages[0].start,...plannedStages.map(s=>s.end)];}catch{}stopDraftReady=true;lastPlanSignature=stopsSignature();renderStops();syncStart();}
+renderStops();restoreStopDraft();
