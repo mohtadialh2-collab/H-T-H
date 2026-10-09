@@ -1,0 +1,17 @@
+'use strict';
+const overnightLabels={not_contacted:'Not contacted',requested:'Requested',confirmed:'Confirmed'};
+function overnightCard(index){const stay=ItineraryCore.overnight(plannedStages,index,planPreferences.startDate);return `<button class="overnight-card status-${stay.status}" data-overnight="${index}"><span>Overnight · ${stay.nights} ${stay.nights===1?'night':'nights'}</span><strong>${stay.needsReview?'Stay changed — reconfirm':overnightLabels[stay.status]}</strong><small>Hut details & booking notes ↗</small></button>`;}
+function overnightOverview(){const stays=plannedStages.map((s,i)=>ItineraryCore.overnight(plannedStages,i,planPreferences.startDate));const confirmed=stays.filter(s=>s.status==='confirmed').length,requested=stays.filter(s=>s.status==='requested').length;return `<p class="overview-bookings"><strong>Overnights: ${confirmed} / ${stays.length} marked confirmed</strong><br>${requested} requested · ${stays.length-confirmed-requested} not contacted${stays.some(s=>s.needsReview)?' · changed stays need reconfirmation':''}<br><small>Your tracking; confirmation is not checked with hut operators.</small></p>`;}
+function bindOvernightControls(){document.querySelectorAll('[data-overnight]').forEach(b=>{b.disabled=planBusy;b.onclick=()=>showOvernight(Number(b.dataset.overnight));});}
+function showOvernight(index){
+ const stage=plannedStages[index];if(!stage||planBusy)return;
+ const stay=ItineraryCore.overnight(plannedStages,index,planPreferences.startDate);
+ showHut(stage.end.id);
+ $('detail-body').insertAdjacentHTML('afterbegin',`<section class="overnight-editor"><h3>Your overnight at this hut</h3><p>${esc(stay.date)} → ${esc(ItineraryCore.dateAt(stay.date,stay.nights))} · ${stay.nights} ${stay.nights===1?'night':'nights'}</p>${stay.needsReview?'<p class="route-caution">The hut, dates or number of nights changed. Check your previous request or confirmation before marking this stay again.</p>':''}<label for="overnight-status">Booking status<select id="overnight-status">${Object.entries(overnightLabels).map(([value,label])=>`<option value="${value}" ${value===stay.status?'selected':''}>${label}</option>`).join('')}</select></label><label for="overnight-notes">Contact notes or booking reference<textarea id="overnight-notes" maxlength="2000" rows="3" placeholder="Keep your own contact and booking notes here…">${esc(stay.notes)}</textarea></label><p class="intro">This tracks your own booking progress. Contact the operator to request or confirm accommodation. Notes stay in this browser and in your exported backups.</p><button class="primary full" id="save-overnight">Save overnight status</button></section>`);
+ $('save-overnight').onclick=()=>{
+ if(planBusy||plannedStages[index]!==stage)return notify('The itinerary changed. Reopen this overnight before saving.');
+ const status=$('overnight-status').value,notes=$('overnight-notes').value.trim();if(!Object.hasOwn(overnightLabels,status)||notes.length>2000)return;
+ const selected=plannedStages.indexOf(latestStage);plannedStages=plannedStages.map((s,i)=>i===index?{...s,overnight:{hutId:stay.hutId,date:stay.date,nights:stay.nights,status,notes}}:s);if(selected>=0)latestStage=plannedStages[selected];
+ routePlanChanged();renderPlannedStages();if(latestStage)renderStage(latestStage);$('detail').close();notify('Overnight status saved to your draft. Use Save trip to update your saved trip.');
+ };
+}

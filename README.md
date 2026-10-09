@@ -43,3 +43,14 @@ Choose an ordered list of hut stops using “Add another hut”, then calculate 
 
 ## Plan by clicking the map
 Use “Pick huts on map” to append huts in click order. Selected markers display stop numbers, which renumber after removal and persist with the hut draft. Previously selected huts stay visible on the map when catalogue filters change. “Done picking huts” restores normal detail clicks; stop-list detail buttons remain available during selection. “Start a new hut selection” clears pending hut choices while keeping the previously calculated itinerary until a replacement succeeds. Repeated visits share one marker with multiple stop numbers (long sequences use a compact plus badge and full numbers in the tooltip).
+
+## Trip overview (batched release)
+Review trip now includes total geometry distance, estimated total walking time and ascent, calendar dates, hiking/rest-day counts and hut stops. A total stays incomplete if any hiking day lacks its estimate. Day cards flag daily-limit exceedances, missing estimates and incomplete recorded difficulty; overall hut-access, conditions and overnight warnings remain visible. Selecting a day or clicking a route synchronizes the active card and highlighted map route; mouseout preserves that selection. “Show whole trip on map” clears the selection and fits all calculated legs and hut centres.
+
+## Overnight tracking (batched release)
+Each hiking day offers hut details and a planned overnight with Not contacted, Requested or Confirmed status and private browser-local notes (up to 2,000 characters). Statuses are self-reported; this does not send requests or verify operator confirmations. Records bind to the hut, arrival date and one/two-night stay. Changing those details prompts reconfirmation; repeating a hut on different days keeps separate records. Drafts, saved trips and JSON backups preserve and validate overnight metadata; legacy backups remain supported. Source-reported facility tags are retained where present and missing season/facilities/booking data stays explicit.
+
+## Travel exports (batched release)
+Review trip provides a GPX download and a print/offline itinerary preview. GPX 1.1 exports each hiking day as a separate track using original route points and numbers hut centres as waypoints. Unreviewed hut approach gaps remain excluded; DEM samples are not assigned to unrelated geometry vertices. Printable and standalone HTML itineraries include dates, rest days, estimated metrics, source warnings, hut contacts and self-reported overnight statuses. Private booking notes are excluded by default and may be explicitly included. Offline HTML has no scripts or external assets; operator links require internet. Print / Save as PDF uses the browser print dialog. Exports represent calculated stages even when pending hut choices differ.
+
+Validate export behavior with `node --test tests/trip-export.test.cjs` and `node tests/ui.browser.cjs`.

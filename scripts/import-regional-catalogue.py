@@ -26,7 +26,9 @@ def cell(bbox,depth=0):
             if not (WEST<=coord[0]<=EAST and SOUTH<=coord[1]<=NORTH):continue
             site=tags.get('website') or tags.get('contact:website')
             if site and not site.startswith(('https://','http://')):site=None
-            huts.append({'id':f'osm-{e.tag}-{e.attrib["id"]}','name':tags['name'],'lng':coord[0],'lat':coord[1],'height':tags.get('ele','Not recorded')+' m','beds':tags.get('beds'),'phone':tags.get('phone') or tags.get('contact:phone'),'site':site,'opening':tags.get('opening_hours'),'source':f'https://www.openstreetmap.org/{e.tag}/{e.attrib["id"]}','position':'OSM node or building centre; entrance unreviewed','verification':'source_reported'})
+            facility_labels={'drinking_water':'Drinking water','shower':'Showers','toilets':'Toilets','internet_access':'Internet','electricity':'Electricity','wheelchair':'Wheelchair access','diet:vegetarian':'Vegetarian meals','diet:vegan':'Vegan meals'}
+            facilities=' · '.join(label+': '+tags[key] for key,label in facility_labels.items() if tags.get(key)) or None
+            huts.append({'id':f'osm-{e.tag}-{e.attrib["id"]}','name':tags['name'],'lng':coord[0],'lat':coord[1],'height':tags.get('ele','Not recorded')+' m','beds':tags.get('beds'),'phone':tags.get('phone') or tags.get('contact:phone'),'site':site,'opening':tags.get('opening_hours'),'facilities':facilities,'source':f'https://www.openstreetmap.org/{e.tag}/{e.attrib["id"]}','position':'OSM node or building centre; entrance unreviewed','verification':'source_reported'})
         print(f'Cell {key}: {len(huts)} hut records',flush=True)
         return huts,[{'bbox':bbox,'url':url,'sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw),'status':'retrieved'}]
     except Exception as error:
