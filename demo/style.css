@@ -22,3 +22,5 @@
 .map-panel .leaflet-top.leaflet-right{top:145px;right:14px}
 @media(max-width:700px){.map-panel .leaflet-top.leaflet-right{top:130px;right:8px}}
 .optional-limit{flex:1;min-width:0}.optional-limit>label:first-child{font-size:11px}.optional-limit>input{width:100%}.any-limit{display:flex;flex-direction:row;align-items:center;gap:6px;margin:8px 0;font-size:12px}.any-limit input{width:16px;height:16px;margin:0;accent-color:#284e3e}#reset-trip-plan{margin-bottom:14px}#reset-trip-plan:disabled{opacity:.45;cursor:default}
+.hut-filters{margin:14px 0;border:1px solid var(--line);border-radius:6px;padding:12px}.hut-filters summary{cursor:pointer;font-size:12px;font-weight:600}.hut-filters .filter-row{margin-top:14px}#more-huts{margin:12px 0}
+.active-hut-filters{margin:12px 0 18px}.hut-filter-chip{font-size:11px;background:#edf2e7;border:1px solid var(--line);border-radius:20px;padding:7px 10px;margin:0 5px 7px 0;text-align:left;max-width:100%;overflow-wrap:anywhere}.hut-filter-chip:hover,.hut-filter-chip:focus-visible{background:#dce8d4}.hut-price{color:var(--green);margin-top:4px}#hut-filter-count{font-weight:normal}

@@ -41,3 +41,9 @@ test('expanded snapshot has valid unique IDs and destination API filters every r
   await handler({method:'GET',query:{region}},res);assert.equal(res.code,200);assert.deepEqual(res.data.huts.map(h=>h.id),expected.map(h=>h.id));
  }
 });
+test('reported prices require an explicit amount, currency and package; free Wi-Fi and fee tags are not overnight prices',()=>{
+ const {reportedPrice}=require('../demo/api/_providers');
+ assert.deepEqual(reportedPrice({charge:'72 EUR half-board','charge:check_date':'2024-10-10'}),{amount:72,currency:'EUR',basis:'half-board',checkedAt:'2024-10-10'});
+ assert.equal(reportedPrice({fee:'no','internet_access:fee':'no'}),null);
+ assert.equal(reportedPrice({charge:'72 EUR'}),null);assert.equal(reportedPrice({charge:'72 USD half-board'}),null);
+});

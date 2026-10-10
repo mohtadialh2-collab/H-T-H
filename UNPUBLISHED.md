@@ -104,3 +104,24 @@ Published commit d216d341169552f129c2c4205650ab41546246de; production deployment
 - Added verification for duplicate detection, expanded-ID ORS request acceptance and bounded destination API output. ORS test uses mocked provider geometry; it does not verify a new real walking connection.
 - Not deployed: live production still contains the previous 46-record snapshot.
 - Verification: unit suites and all four browser suites passed with the 296-record snapshot. A read-only live request for Paul Preuss → Re Alberto returned HTTP 503 at the new-ID map verification step. No real route was obtained; the pending retained snapshot avoids that extra lookup after deployment. Real new-hut routing remains a post-deployment check.
+
+## Expanded catalogue published — 2026-10-09
+Published commit 10b47a09eeb472527a27b7161a3771e9106e8741; production deployment dpl_b2QC99KKLuCYW2JGC7g5K4ZNGTr3 is READY at https://traversa-hth-demo.vercel.app. Live catalogue returned 296 records and Cortina returned 55 (HTTP 200); explorer.js matches the tested source. Real ORS request Paul Preuss → Re Alberto returned HTTP 200: 1175.7 m, 0.5774167 hours, 532 m ascent, 18 m descent, and 96 aligned geometry/elevation points. This confirms the previous new-ID verification failure is avoided for retained imported huts. These are provider estimates, not independently verified access or current conditions. Unit suites passed before deployment; all four browser suites passed during batch preparation. No feature changes remain pending.
+
+## Pending hut discovery simplification
+- Explore Huts displays eight cards at a time with Show more, instead of listing every record. All matching map markers and selected trip stops remain available.
+- Added max reported EUR package price (Any / €50 / €75 / €100 / not recorded) and min straight-line distance (Any / 1 / 3 / 5 / 10 km) from the last selected trip stop. Distance control waits for a selected stop; no walking distance is invented.
+- Preserved explicit OSM charge metadata only when amount, EUR currency and overnight package are recorded. One existing record reports €72 half-board, dated 2024-10-10. The UI discloses price coverage, age/package uncertainty and exclusion of unknown prices under caps.
+- Checking Any hides daily distance/time number inputs; unchecking restores them. Nullable preferences still save/reload.
+- Unit tests and browser regression checks passed for price extraction/filtering, pagination, selected-stop preservation, mobile layout and existing flows. Focused minimum-distance and Any hide/show checks rerun after final assertions. Not deployed.
+
+### Filter usability follow-up — 2026-10-10
+- Active filter chips can be removed individually, including search; Reset hut filters clears every hut filter and restores the eight-card view without clearing the trip.
+- More filters indicates the number of active price/distance settings.
+- Recorded price, package and source date appear directly on hut cards. Unknown prices remain uninferred.
+- Browser checks cover card price disclosures, active count, individual removal, empty-result reset and preserved numbered trip stops. This remains part of the unpublished hut discovery batch.
+
+### Street-map option — 2026-10-10
+- Added Streets using Esri World Street Map alongside existing Topographic and Satellite styles. Provider attribution remains visible; no new API key is needed.
+- Layer controls expose selected state with aria-pressed; stale tile events cannot show errors for the previous layer. Map viewport, hut markers and route overlays are retained when switching.
+- Verification includes a street-map preview rendered from 25 real provider tiles, desktop/mobile control layout and the full UI regression flow. Still unpublished.
