@@ -47,3 +47,9 @@ test('reported prices require an explicit amount, currency and package; free Wi-
  assert.equal(reportedPrice({fee:'no','internet_access:fee':'no'}),null);
  assert.equal(reportedPrice({charge:'72 EUR'}),null);assert.equal(reportedPrice({charge:'72 USD half-board'}),null);
 });
+test('source websites with a bare domain are restored; unsafe schemes do not replace valid contact websites',()=>{
+ const source={...element,tags:{...element.tags,website:'www.flaggerschartenhuette.it/'}};
+ assert.equal(catalogue({elements:[source]},'dolomites').huts[0].site,'https://www.flaggerschartenhuette.it/');
+ source.tags.website='javascript:alert(1)';source.tags['contact:website']='https://example.com/hut';
+ assert.equal(catalogue({elements:[source]},'dolomites').huts[0].site,'https://example.com/hut');
+});

@@ -125,3 +125,27 @@ Published commit 10b47a09eeb472527a27b7161a3771e9106e8741; production deployment
 - Added Streets using Esri World Street Map alongside existing Topographic and Satellite styles. Provider attribution remains visible; no new API key is needed.
 - Layer controls expose selected state with aria-pressed; stale tile events cannot show errors for the previous layer. Map viewport, hut markers and route overlays are retained when switching.
 - Verification includes a street-map preview rendered from 25 real provider tiles, desktop/mobile control layout and the full UI regression flow. Still unpublished.
+
+## Hut discovery and Streets batch published — 2026-10-10
+Published commit af6abf03a870c517bbb27308f296e9d5245563a9; production deployment dpl_DT58ZUN99CiHoKCQwV68DhoaN3kx is READY at https://traversa-hth-demo.vercel.app. Live index, app, explorer, itinerary and style assets exactly match tested source. Catalogue returned 296 hut records and one explicit dated price. Real ORS Cinque Torri → Scoiattoli request returned HTTP 200 with distance, time, 134 m ascent and 7 m descent. All unit suites passed before release; four browser suites passed during preparation, with the full UI suite and real-tile street-map/mobile preview repeated after adding the map style. Direct production browser access remains constrained by the execution environment proxy; production HTTP/assets/API checks passed. No feature changes remain pending.
+
+## Pending reported filter and website fixes — 2026-10-10
+- Minimum distance is selectable before trip selection. Distance from offers a reference hut; a missing reference is disclosed rather than disabling the filter. Last selected trip hut remains the default when available.
+- Price caps include unknown-price huts by default, visibly mark unknown prices and explain that they may exceed the budget. Optional checkbox excludes unknown prices for strict recorded-price filtering.
+- Restored bare-domain source URLs and valid contact URLs. Added three reviewed operator links (Galassi, Biella, Tre Scarperi), with dated primary-source evidence retained separately. Direct website coverage is 152/296 records. Missing direct links offer website search, without claiming to be verified operator URLs.
+- Unit suites (36 assertions before reviewed-link additions) and all four browser suites passed, including editable distance before trip selection, reference-hut filtering, price inclusion/exclusion, website search, selected-trip preservation and mobile layout. Not deployed.
+
+### Automatic on-open operator pricing — 2026-10-10
+- Hut opening checks /api/hut-prices by indexed hut ID; no client-provided fetch URLs. Initial fixed-source adapters cover Galassi and Biella. Unsupported operators are disclosed.
+- User selected all packages, no default. Display retains package, eligibility, per-person/night unit, rate year and checked timestamp. Budget matches any listed rate and discloses discounted/package differences.
+- Successful checks cached for six hours (CDN plus IndexedDB). Failed refreshes keep earlier rates and show outdated status; dialog close/switch cancels requests and stale results cannot overwrite another hut.
+- 2026 rates are not labelled as confirmed 2027 trip rates; unknown rate years remain explicit. Availability is not checked.
+- Source content reviewed via operator pages; parser/HTTP contracts tested using representative table fixtures. Live extraction has not been tested in Vercel yet. Direct Nuvolau HTML access returned HTTP 403; no bypass or guessed rate was used.
+- Pure suites and automatic-price/UI/preferences browser checks passed; saved-trip/provider regressions also run. This remains in the unpublished batch, including earlier distance, unknown-price and website fixes.
+
+### Cinque Torri automatic price coverage — 2026-10-10
+- Added fixed-source Cinque Torri accommodation adapter using https://www.rifugio5torri.it/en/rooms.html. Fresh page explicitly labels 2026 season; older search snippets label 2025. Runtime extraction uses the page's explicit rate-year heading, never booking-year mentions or copyright.
+- Preserves four standard packages: private-room half-board / B&B and shared-dormitory half-board / B&B. No default selected; extras and child-discount amounts are not treated as overnight packages.
+- Rejects missing room/package prices, duplicate sections and conflicting or missing rate-year headings. Tests use a reviewed representative page section, with extras and unrelated years included.
+- Averau and Scoiattoli public accommodation pages reviewed but no reliably readable overnight price list found. Nuvolau readable listino exposes tourist tax rather than overnight amounts; left unsupported rather than guessing.
+- All pure suites passed. Live operator extraction still needs verification at the next explicitly requested batch deployment. Not published.
