@@ -1,0 +1,1522 @@
+{
+  "osm-way-433028320": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official page describes private/shared room types and an enquiry form but publishes no readable accommodation tariff.",
+    "sourceUrl": "https://www.malgavalmaggiore.it/"
+  },
+  "osm-node-3219514665": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Matching official tourism listing found; no verified direct operator price website.",
+    "sourceUrl": "https://www.visitdolomitibellunesi.com/it/pois/malga-laste"
+  },
+  "osm-way-125508386": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official tourism accommodation listing found; direct operator website and readable complete tariffs remain unverified.",
+    "sourceUrl": "https://www.osttirol.com/region-orte/bekannte-taeler-und-regionen/villgratental/almen/detail/unterkunft/almhuette-hofelet-ausservillgraten"
+  },
+  "osm-way-627387259": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "http://www.baitaallecascate.com/"
+  },
+  "osm-way-36053801": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-116507550": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-node-286290910": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-290693229": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-172785016": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-127204295": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.baitasegantini.it/"
+  },
+  "osm-way-43330269": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-node-2449738726": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.bonnerhuette.it/"
+  },
+  "osm-way-121108557": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-361390714": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.olang.com/de/infos/brunst-alm_4479"
+  },
+  "osm-way-127204302": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official 2026 half-board tariff gives slash-separated amount pairs for periods and stay lengths without explaining the two amounts. Confirm their meaning before importing.",
+    "sourceUrl": "https://www.capannacervino.it/prezzi-estate"
+  },
+  "osm-way-199052484": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-68827782": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiocarlovalentini.com/"
+  },
+  "osm-node-12855160789": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-209014263": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-199050495": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-502126466": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-node-12188932482": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-186516560": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Exact-name search did not identify a verified operator website. Overnight operation remains unconfirmed."
+  },
+  "osm-way-437455926": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-node-1212500269": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-492079069": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.facebook.com/LaPrimulaAuronzo/"
+  },
+  "osm-way-433056659": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-98576829": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Replacement operator page verifies Dibaita at Puflatsch, Alpe di Siusi, but describes dining and publishes no accommodation tariff. Overnight accommodation is still unconfirmed.",
+    "sourceUrl": "https://www.dibaita.it/"
+  },
+  "osm-node-13671838950": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-41964731": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-201457898": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://www.eremodeiromiti.it/info.html"
+  },
+  "osm-way-205397267": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.filmoorhuette.com/"
+  },
+  "osm-node-9917800575": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.flaggerschartenhuette.it/"
+  },
+  "osm-way-392942779": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-152100331": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.grasleitenhuette.com/"
+  },
+  "osm-way-867886070": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-70144248": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.satlagorai.it/"
+  },
+  "osm-way-25385356": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://kesselberg.it/"
+  },
+  "osm-node-9123040774": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T21:11:17.777036+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official seasonal table contains conflicting German, English and Italian amounts for the same room/season. Confirm the applicable version and units before importing.",
+    "sourceUrl": "https://www.kreuzwiesenalm.com/angebote.html"
+  },
+  "osm-way-36053879": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-36053864": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "http://www.lagenzianella.eu/"
+  },
+  "osm-way-118944262": {
+    "status": "no_overnight",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Operator explicitly states that sleeping facilities are not available.",
+    "sourceUrl": "https://www.longolbe.com/english/alpine-hut-langalm/"
+  },
+  "osm-way-199110477": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-116740813": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.leckfeldalm.at/"
+  },
+  "osm-way-249332479": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-249332945": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-378750825": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-378750826": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-383696222": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official tourism listing found, but no verified operator site or overnight rate page located.",
+    "sourceUrl": "https://www.visitdolomitibellunesi.com/it/pois/malga-ciauta"
+  },
+  "osm-way-201021756": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Recorded site inaccessible; no usable primary price page found in targeted search.",
+    "sourceUrl": "https://www.malgafedera.eu/"
+  },
+  "osm-way-378750332": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-435854700": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-378749292": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-node-14028494002": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Recorded site timed out; overnight prices unverified.",
+    "sourceUrl": "https://www.malgagiau.it/"
+  },
+  "osm-way-243494812": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-243494815": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-66390582": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-625772047": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-199052485": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-479218878": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-node-1836979545": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-node-722738557": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.malgavalcigolera.it/"
+  },
+  "osm-way-255119471": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-71055698": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-node-9917675843": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://marchhuette.it/de/startseite"
+  },
+  "osm-way-42560529": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.maurerberg.com/"
+  },
+  "osm-way-68826696": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://montipallidi.it/en"
+  },
+  "osm-way-206158140": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiomuntdesennes.com/"
+  },
+  "osm-way-136869246": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://obstans.jimdofree.com/"
+  },
+  "osm-way-97941683": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T21:11:17.777036+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official accommodation page reaches the overnight-package heading but readable rate content is missing; request an accessible tariff rather than infer prices.",
+    "sourceUrl": "https://www.plattkofel.com/it/pernottamenti/camerate-e-camere-private.html"
+  },
+  "osm-way-205397977": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-104151033": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-141229088": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-383877715": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Tourism listings identify a candidate domain, but it could not be opened to verify current operator identity or prices.",
+    "sourceUrl": "https://www.rifugiocapannadeglialpini.it/"
+  },
+  "osm-way-199512078": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official tourism contact listing found; no verified operator price website identified.",
+    "sourceUrl": "https://www.visitdolomitibellunesi.com/it/pois/rifugio-passo-valparola"
+  },
+  "osm-way-384572048": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiofabbro.it/"
+  },
+  "osm-way-200218638": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T21:11:17.777036+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened the official sleeping and booking conditions page. It describes rooms, meals, extras and a 30-euro deposit, but publishes no readable accommodation package amounts. Deposit is not a price.",
+    "sourceUrl": "https://www.rifugiocoldai.com/IT/pagina.php?idPagina=48"
+  },
+  "osm-way-363001211": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-186516084": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Operator room descriptions link to a date-dependent booking engine; no fixed overnight price list on inspected page.",
+    "sourceUrl": "https://www.ristoranteospitale.com/camere/"
+  },
+  "osm-way-200336783": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Operator bookings link opens a dynamic app without readable public price amounts.",
+    "sourceUrl": "https://www.rifugiodibona.it/"
+  },
+  "osm-way-202148123": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.caitreviso.it/rifugi/rifugio-antelao/"
+  },
+  "osm-way-74495656": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T21:11:17.777036+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official room pages list half-board 61 member, 53 junior member, 84.50 non-member and 61 non-member under 12. Per-person nightly basis and junior age boundary are not explicitly stated; confirm before importing.",
+    "sourceUrl": "https://www.rifugioantermoia.com/prodotto/camera-family-5/"
+  },
+  "osm-way-200217365": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official services page describes 25 beds and rooms but no accommodation amounts.",
+    "sourceUrl": "https://www.rifugioaquileia.it/Servizi.htm"
+  },
+  "osm-way-186519265": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T18:55:19.404777+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Room and dormitory values listed by month, but page does not clearly label room-total versus per-person units or a rate year. Confirm before filtering.",
+    "sourceUrl": "https://rifugioauronzo.it/prenota/"
+  },
+  "osm-way-200335813": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T18:55:19.404769+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Public room descriptions link to a booking engine; no readable public accommodation amounts on inspected page.",
+    "sourceUrl": "https://www.rifugioaverau.it/dormire/"
+  },
+  "osm-way-664282658": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.baitachecco.com/"
+  },
+  "osm-way-199488151": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-361715944": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://rifugiocauriol.it/en/"
+  },
+  "osm-way-82629883": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiobaion.it/"
+  },
+  "osm-way-199514203": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://becderoces.it/en/rooms-summer/"
+  },
+  "osm-way-42224521": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugioboe.it/"
+  },
+  "osm-way-199052577": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-180141573": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official accommodation price section is under construction. Only shower and tourist-tax extras are readable; current bed and board prices require enquiry.",
+    "sourceUrl": "https://www.rifugioboz.it/en/prices-and-booking/"
+  },
+  "osm-way-183203075": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T21:11:17.777036+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official tariff page returned 403 Forbidden to the source reader. No current accommodation prices verified; an accessible tariff or operator confirmation is required.",
+    "sourceUrl": "https://www.rifugiocarestiato.com/wordpress/listino/"
+  },
+  "osm-way-116506300": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-node-739660877": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-107175590": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-199519406": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.capannabill.com/"
+  },
+  "osm-way-200789501": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Candidate domain from secondary listings could not be opened; current operator link remains unverified.",
+    "sourceUrl": "https://www.rifugiocapannatondi.it/"
+  },
+  "osm-way-183203142": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://rifugiocapannatrieste.it/"
+  },
+  "osm-way-209017858": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-208885398": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-202045127": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-36023225": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-36021969": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.caseramela.it/"
+  },
+  "osm-way-35941936": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://rifugiocaseratartoi.it/"
+  },
+  "osm-way-36021748": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.cavabuscada.com/"
+  },
+  "osm-way-199110489": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-201452750": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-383877717": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://www.rifugiochiggiato.it/"
+  },
+  "osm-way-84653322": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://www.albaciampac.it/en/"
+  },
+  "osm-way-259258409": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-1092213079": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiociampedie.it/"
+  },
+  "osm-way-95420781": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-107176081": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://www.rifugiocimaundici.it/"
+  },
+  "osm-way-42265456": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://rifugiocolalt.it/"
+  },
+  "osm-way-196572216": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-199514204": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-200785546": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Recorded operator site is inaccessible to the research tool; prices not verified.",
+    "sourceUrl": "https://www.rifugiocoldevarda.it/"
+  },
+  "osm-way-200218538": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official tourism description found but no verified operator website or overnight price page.",
+    "sourceUrl": "https://www.visitdolomitibellunesi.com/it/pois/chalet-col-dei-baldi"
+  },
+  "osm-way-200335814": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Recorded site inaccessible; no usable primary price page found in targeted search.",
+    "sourceUrl": "https://rifugiocolgallina.com/"
+  },
+  "osm-way-130038304": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.fassa.com/it/servizi/rifugio-col-rodella"
+  },
+  "osm-way-172896399": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "http://www.rifugiocontrin.it/"
+  },
+  "osm-way-202148230": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-196586366": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "http://www.rifugiodedoo.it/"
+  },
+  "osm-way-65400061": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-208885817": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://www.rifugiodolada.it/en/home-2/"
+  },
+  "osm-way-382561795": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official tariff page explicitly directs guests to request a personalised quote; it publishes no numeric bed or meal package amounts.",
+    "sourceUrl": "https://rifugiomonterite.it/tariffe-prenotazioni.html"
+  },
+  "osm-way-200789473": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Recorded page did not expose readable accommodation pricing.",
+    "sourceUrl": "https://faloriacristallo.it/rifugio-faloria/"
+  },
+  "osm-way-237733853": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T18:55:19.404776+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Fresh page currently omits rate amounts; older search snippets show 2026 starting prices. Not imported from outdated snippets.",
+    "sourceUrl": "https://www.rifugiofanes.com/?Itemid=120"
+  },
+  "osm-way-199519388": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiofedaia.com/"
+  },
+  "osm-way-363936658": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-199486712": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-303193375": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://rifugiofonteghi.it/"
+  },
+  "osm-way-196590751": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-node-1361631209": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-199514207": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official price page links an external digital publication; tariff amounts were not readable in this pass.",
+    "sourceUrl": "https://rifugiokostner.it/it/prezzi"
+  },
+  "osm-way-199516790": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.fredarola.it/"
+  },
+  "osm-way-183317591": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-122023472": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official price table lists half-board 85/80 and B&B 65/60 by stay length, but does not explicitly state per-person or per-room units. Confirm units before importing.",
+    "sourceUrl": "https://gardeccia.it/en/dormire-in-rifugio"
+  },
+  "osm-way-35942653": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiogiaf.it/"
+  },
+  "osm-way-383696228": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-165632946": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-199052486": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-196591592": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-199514348": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-116380592": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "http://www.rifugiolarezila.it/"
+  },
+  "osm-way-199514208": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-199488239": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-66403605": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-201017369": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official tourism/contact page confirms two rooms but no overnight rates; transport charge excluded.",
+    "sourceUrl": "https://cortinadelicious.it/IT/s20-tipo-3-Rifugio-Lago-d-Ajal"
+  },
+  "osm-way-199051677": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-186519282": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiolavaredo.com/home.html"
+  },
+  "osm-way-199519380": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-125155395": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-186517562": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:20:18.090617+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Operator room descriptions give B&B inclusions but require booking-engine date selection for prices.",
+    "sourceUrl": "https://www.rifugiomalgarastua.it/le-camere/"
+  },
+  "osm-way-67493498": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-36021744": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://rifugiomaniago.it/"
+  },
+  "osm-way-42257301": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-183196061": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-183195927": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiovazzoler.com/"
+  },
+  "osm-node-9951593620": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiomicheluzzi.it/"
+  },
+  "osm-node-3219474427": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official tourism description found; no verified operator website or price list identified.",
+    "sourceUrl": "https://www.agordinodolomiti.it/it_IT/esperienze/cosa-vedere/rifugi-malghe-e-casere-in-agordino/rifugi-in-agordino/rifugio-migon-agordino-dolomiti/"
+  },
+  "osm-way-293908116": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-82630093": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-200217393": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official tourism listing found, no verified operator accommodation price website.",
+    "sourceUrl": "https://www.dolomitisuperski.com/it/esperienze/servizi/dolomiti-a-z/Civetta/Rifugio-Monte-Pelmo"
+  },
+  "osm-way-186519266": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Operator page announces 2027 overnight booking dates but publishes no readable accommodation rates.",
+    "sourceUrl": "https://sites.google.com/view/rifugio-bosi/home-page"
+  },
+  "osm-way-664282659": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.negritella.net/"
+  },
+  "osm-way-36021607": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-200226208": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T18:55:19.404720+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Accommodation packages and tourist tax are readable, but no overnight amounts exposed in inspected listino.",
+    "sourceUrl": "https://rifugionuvolau.it/dormire/"
+  },
+  "osm-way-199519641": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-201452709": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiopadova.it/"
+  },
+  "osm-way-200217404": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Starting amounts are shown for many room types, but inspected page does not state whether amounts are per person or per room. No assumed unit imported.",
+    "sourceUrl": "https://www.palafavera.com/it/rifugio-palafavera-civetta-zoldo"
+  },
+  "osm-way-172785021": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T21:11:17.777036+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official rooms page lists bed-only 32, B&B 50 and half-board 73. Tariff year and per-person/night unit are not explicitly stated; confirm units before importing.",
+    "sourceUrl": "https://www.paolina-huette.com/paol/index.php/it/camere"
+  },
+  "osm-way-122374773": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official summer 2026 page lists half-board 95 and under-12 half-board 70, but does not explicitly state nightly per-person basis. Confirm units before importing.",
+    "sourceUrl": "https://rifugioleselle.wixsite.com/ilmiosito/contatti-e-info?lang=en"
+  },
+  "osm-way-514999294": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T21:11:17.777036+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened the official overnight accommodation section. It describes 24 beds and booking contact, but no numeric accommodation rates are readable there.",
+    "sourceUrl": "https://www.rifugiopassosannicolo.com/en/dormire/"
+  },
+  "osm-way-183311398": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiopassoduran.it/"
+  },
+  "osm-node-13839363879": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiolusia.com/"
+  },
+  "osm-way-116543951": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiolusia.com/"
+  },
+  "osm-way-152250683": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Replacement official site publishes 2026 half-board 80/person in 15-bed attic and 90/person in 4–8-bed dormitory; currency and nightly basis are not explicitly printed. Confirm before importing.",
+    "sourceUrl": "https://www.rifugioprincipe.com/it/rifugio/"
+  },
+  "osm-way-74495662": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-node-11010942890": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiopetina.it/"
+  },
+  "osm-way-110978043": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "http://www.piandefontana.it/"
+  },
+  "osm-way-200226213": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Verified Piezza/Da Aurelio operator site describes restaurant service; no accommodation price list exposed. Overnight service remains unconfirmed.",
+    "sourceUrl": "https://www.da-aurelio.it/"
+  },
+  "osm-way-199514202": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugio-planboe.com/"
+  },
+  "osm-way-200336784": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T21:11:17.777036+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official winter 2025–26/summer 2026 table publishes B&B amounts for double/triple/quad rooms and dormitory, but does not explicitly identify per-room versus per-person units. Do not divide totals by nominal occupancy.",
+    "sourceUrl": "https://rifugiopomedescortina.com/le-camere/"
+  },
+  "osm-way-264163986": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.facebook.com/RistoroCaseraPradut"
+  },
+  "osm-way-378752744": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-399458941": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://www.rifugiorefavaie.com/"
+  },
+  "osm-way-382562642": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugioremauro.it/"
+  },
+  "osm-way-196590295": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiorinfreddo.it/"
+  },
+  "osm-way-200223565": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Exact-name search found route and directory records, but no verified operator website."
+  },
+  "osm-way-95420782": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiosalei.it/"
+  },
+  "osm-way-202010501": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Operator says closed until June 2027 and requests direct contact; no readable accommodation tariff.",
+    "sourceUrl": "https://www.rifugiosanmarco.com/"
+  },
+  "osm-way-183310653": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.passoduran.it/"
+  },
+  "osm-way-199516795": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-200220255": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Operator page says no summer 2026 opening because management ended. Current operating status and next-season prices require confirmation.",
+    "sourceUrl": "https://www.rifugiosassobianco.it/"
+  },
+  "osm-way-200335135": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T18:55:19.404774+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Half-board described; listed bath-barrel charge is an extra, not an overnight package.",
+    "sourceUrl": "https://www.rifugioscoiattoli.it/post/il-rifugio-1.html"
+  },
+  "osm-way-289394722": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "http://www.setteselle.altervista.org/"
+  },
+  "osm-way-200799615": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official tourism listing points to candidate domain, which could not be opened to confirm current operator information.",
+    "sourceUrl": "https://www.zardinilacedelli.it/"
+  },
+  "osm-way-35942009": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-183315385": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiosommarivaalpramperet.it/"
+  },
+  "osm-way-200795503": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Recorded operator site could not be opened; prices unverified.",
+    "sourceUrl": "https://www.rifugiosonforca.it/"
+  },
+  "osm-way-122118920": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Summer 2026 starting rates and historic winter 2025–26 offers found. Summer tariff units are not explicitly stated; confirm nightly per-person basis before importing.",
+    "sourceUrl": "https://www.rifugiostellaalpinaspizpiaz.it/prezzi/"
+  },
+  "osm-way-122374780": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official page has a Prices 2026 heading and package definitions, but tariff amounts are missing from the readable page.",
+    "sourceUrl": "https://rifugiotaramelli.it/pernottamento"
+  },
+  "osm-way-201452710": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-84653328": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-210004305": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "http://www.rifugiotreviso.it/"
+  },
+  "osm-way-483706067": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiovallata.it/"
+  },
+  "osm-way-59721521": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://www.rifugiovederna.com/"
+  },
+  "osm-way-172769987": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiovieldalpan.it/"
+  },
+  "osm-node-4988488940": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-200218608": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Recorded tourism/operator page exposes no accommodation tariff. Overnight service itself remains unconfirmed.",
+    "sourceUrl": "https://valfiorentinadolomiti.it/it/ristoro-belvedere/"
+  },
+  "osm-way-200223566": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Verified restaurant operator page found; no accommodation rate list. Overnight service itself remains unconfirmed.",
+    "sourceUrl": "https://valfiorentinadolomiti.it/it/Ristoro-Fertazza/Home_Ristoro_Fertazza/Benvenuti-Rifugio-Fertazza.html"
+  },
+  "osm-node-1411935556": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Restaurant menu/directory found; no verified accommodation operator website. Restaurant charges not imported as overnight prices.",
+    "sourceUrl": "https://www.leggimenu.it/menu/laciasela"
+  },
+  "osm-way-200223885": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:27:04.654099+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Exact-name search did not identify a verified operator site or overnight price page."
+  },
+  "osm-way-152222844": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official accommodation page explicitly provides bookings and prices on request. No numeric accommodation tariff is published on the inspected page.",
+    "sourceUrl": "https://www.schutzhaus-rittner-horn.com/de/unterkunft"
+  },
+  "osm-way-36054066": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-208620122": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-121834831": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official page contains conflicting 2026 rates (65/55 and 68/58 for own-liner beds; 75/65 and 78/68 for supplied linen) and conflicting dog supplements. Confirm the applicable tariff before importing.",
+    "sourceUrl": "https://www.schlernhaus.it/en/accommodation/rates"
+  },
+  "osm-way-123303946": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened a matching operator website. A current accommodation tariff has not yet been verified; further accommodation-page review is needed.",
+    "sourceUrl": "https://sillianerhuette.at/leistungen/"
+  },
+  "osm-way-42143831": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-121839252": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official page lists B&B from 63/75/91 and half-board from 97/109/125 across room types B/C/D, but does not explicitly state per-person or per-room units. No unit guessed.",
+    "sourceUrl": "https://tierseralpl.com/en/"
+  },
+  "osm-way-180727615": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.tognola.it/"
+  },
+  "osm-way-199514205": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-152271730": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.rifugiovicenza.com/"
+  },
+  "osm-way-229003439": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T21:11:17.777036+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Opened the official rooms and conditions page. It describes summer accommodation and included linen, but no numeric accommodation tariff is readable; live booking quotes require separate confirmation.",
+    "sourceUrl": "https://www.scotoni.it/it/camere-e-prezzi-in-alta-badia"
+  },
+  "osm-way-199514206": {
+    "status": "missing_website",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Searched the hut name for an official operator website and accommodation prices. No direct operator tariff has yet been verified; search results and possible website candidates are retained for follow-up."
+  },
+  "osm-way-42227260": {
+    "status": "no_readable_prices",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official tariff information says bed-only dormitory prices remain to be defined; only breakfast extras are readable. Accommodation package prices require confirmation.",
+    "sourceUrl": "https://www.rifugiopisciadu.it/it/16-contenuto/36-informazioni-sui-nostri-prezzi.html"
+  },
+  "osm-way-125011241": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T19:42:31.451383+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Attempted to read the recorded operator website in this catalogue-wide pass. An unambiguous current accommodation tariff was not verified; follow-up is required. A failed or incomplete page read is not evidence that prices are unpublished.",
+    "sourceUrl": "https://www.tonidemetz.it/"
+  },
+  "osm-way-355326941": {
+    "status": "needs_review",
+    "checkedAt": "2026-10-13T21:11:17.777036+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "reason": "Official summer 2026 table publishes six bed-only/half-board member and non-member values, but nightly per-person basis and junior eligibility are not explicitly stated. Confirm before importing.",
+    "sourceUrl": "https://www.rifugiovelodellamadonna.it/il-rifugio/"
+  }
+}

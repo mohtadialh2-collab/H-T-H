@@ -1,3 +1,29 @@
+# Current publication candidate — 2026-10-13
+
+- Saved coverage: 65 huts / 419 rates; 188 of 296 catalogue records have direct website links. All 296 have review attempts. Remaining statuses: 100 need review, 108 missing verified websites, 22 without readable tariffs and 1 without overnight accommodation. Attempts are not price verifications.
+- Latest batches add Berti's nine member/room/board rates, Cavallera's nine hut/tent rates, Fuciade's ten 2026 date-band rates and Plose's four 2026–27 multi-night offers.
+- Multi-night prices remain per-person stay totals with explicit four/seven-night durations. The €1,000 seven-night offer is stored unchanged. Totals are neither divided into nightly rates nor matched by nightly/daily budget caps. The ambiguous spring offer remains unresolved.
+- Added matching operator websites for Gardeccia, Pisciadù, Passo delle Selle and Rittner Horn; their unverified tariffs remain explicitly flagged. Preserved source-specific 403, missing-rate, inconsistent translation and unclear-unit findings rather than inferring prices.
+- New API/schema and browser coverage verifies package duration, unchanged totals and exclusion of even inexpensive multi-night totals from nightly caps. Full trip and price adapter regressions are included in the publication checks.
+- Not deployed. A fresh publication requires the user's approval under the agreed batch-release workflow.
+
+# Additional unpublished tariff batch — 2026-10-13
+
+- Added 24 rates across Torre di Pisa, Resciesa, Stöffl, Klausner and Vallaccia. Coverage is now 61 huts / 387 rates, with 105 needing further review, 112 missing verified operator websites, 17 without readable tariffs and 1 without overnight accommodation.
+- Preserved per-person double-room prices, Alpine Club eligibility, four-night minimum for Stöffl's longer-stay prices, included linen/showers and separately charged extras. Years remain unknown where not explicitly published.
+- Stöffl's overlapping free/discount eligibility at age three is flagged in notes; no zero rate inferred. Percentage discounts remain uncalculated.
+- Removed unrelated Facebook-domain search candidates from the two Facebook-only records. The review report now matches the updated queue.
+- Pure suites and reviewed-price browser regression passed. Not deployed.
+
+# Current unpublished price-review batch — 2026-10-13
+
+- Finished the catalogue-wide source-search pass: all 296 retained records attempted, with 56 huts / 363 accommodation rates saved. This is not complete price verification: 110 need review, 112 lack a verified operator website, 17 inspected sources lack readable tariffs, and 1 explicitly has no sleeping facilities.
+- Added 30 huts / 228 rates beyond the previous 26-hut batch. Preserved all readable accommodation packages, member/age/occupancy conditions, seasonal labels and original units; ambiguous offers remain in notes or the follow-up queue.
+- Visually verified operator-linked 2026 PDFs for Locatelli and Cima d'Asta. Retained Marmolada's 28 published seasonal entries without inventing blank winter bed-only prices. Scarpa keeps 23 seasonal rates and explicit warnings about conflicting summer child eligibility.
+- Added 23 direct operator links (184 of 296 records now have a direct link) and replaced two domains returning unrelated content: Dibaita and Passo Principe. Website identity does not verify prices or availability.
+- Saved review coverage and per-hut findings in agents/hut-price-review/review-2026-10-13.json; queue retains deeper tariff candidates and next actions. Monthly due date 13 November 2026; review starts through chat, with no hosted AI service or automatic schedule.
+- All 48 pure assertions and the reviewed-price browser regression passed. Browser checks include large seasonal tables, group eligibility, price filters, no external fetch for reviewed prices, overdue labels and mobile layout. No deployment performed.
+
 # Published batch — 2026-10-09
 
 Previous live version: commit f0ad73edda3b9bbeea2c7e8712502f18be150584 (numbered map hut selection).
@@ -170,3 +196,34 @@ All eight pure-suite files passed, automatic-price browser flow and full UI regr
 - Parser fails on incomplete seasonal columns, unknown accommodation rows, unavailable prices and conflicting duplicate responsive tables. Identical desktop/mobile table rates deduplicate. Unit/browser tests use a reviewed representative source section; actual Vercel extraction awaits a requested deployment.
 - All eight pure-suite files and pricing browser flow passed, including both seasonal labels, mixed units, extras exclusion, €75/€100 caps and an inexpensive room-only record excluded from per-person caps. This remains unpublished alongside Tre Scarperi pricing and Carducci/Antelao links.
 - Full UI regression exposed a test that reloaded before the debounced hut-choice save completed. The test now awaits the in-page debounce and write promise, asserts exactly 24 persisted huts, and then checks reload. Diagnostic instrumentation was removed; no speculative application restoration change is retained. Pricing browser, unit and saved-trip browser checks passed; full UI flow passed with the corrected save wait.
+
+## Pricing coverage batch published — 2026-10-13
+Production deployment dpl_7CzVTpxtCP3HcACc5FsHwWbVN4Wi is READY at https://traversa-hth-demo.vercel.app. Commit d468b4ff1b8378188cd3a0361a147f7a9716a8fe. Tre Scarperi live extraction returned HTTP 200 with all 20 rates. ORS Cinque Torri to Scoiattoli returned HTTP 200, 753.7 m, 134 m ascent. Live pricing and explorer scripts match source. Pure suites and pricing browser checks passed; full UI and saved-trip flows passed during preparation.
+Known release limitation: Lagazuoi live extraction returned HTTP 503/unavailable, preserving existing prices and advising operator confirmation. The operator page remains readable via public web research, but raw source diagnosis is restricted by cloud network policy (operator domain not allowed); no policy bypass, guessed rate, or unverified parser relaxation used. Needs further source-fetch/parser diagnosis. No claim that Lagazuoi auto-refresh works in production.
+
+## Pending chat-operated monthly price reviewer — 2026-10-13
+- Added reusable chat-review instructions, complete 296-hut queue, schema validation, merge CLI and before/after audit history. No separate paid AI runtime, external credentials or automatic scheduler added.
+- First primary-source review covers 18 huts: 12 with saved usable rates, 3 needing clarification and 3 inspected pages without readable overnight amounts. Remaining 136 are pending with websites; 142 lack verified direct website links. These are not claimed reviewed.
+- Saved rates: Cinque Torri, Galassi, Biella, Tre Scarperi, Lagazuoi, Carducci, Vajolet, Città di Fiume, Lavarella, Puez, Pian di Cengia and Sennes. Biella child/guide discount included; Galassi current nonmember values 70/35 retained. Sennes freshly opened page now publishes 2027 season rather than old indexed 2026 snippets.
+- Catalogue/API returns stored reviewed rates before operator fetches. Frontend also loads the snapshot for the local destination and cached catalogues, so budget caps use recorded rates before clicking huts. Lagazuoi reviewed rates now available despite its live-extraction failure. Original checked dates, primary-source links, evidence, next-month due dates and overdue labels retained.
+- Starting prices remain explicitly "from"; private-room totals are not divided by guessed occupancy. Per-person/day and per-person/night accommodation can match budget caps. All packages remain visible without choosing a default; discount formulas, fees and extras retained separately as notes.
+- Fresh Fanes page omits amounts (old snippets not imported); Auronzo units require clarification; Locatelli PDF columns need complete visual validation. Nuvolau/Averau/Scoiattoli inspected pages do not expose usable overnight rates.
+- Unit suites and reviewed-price browser flow passed, including rates before clicks, multiple budget matches, local four-hut destination, stale review labels, source links, membership/age discounts, room units and starting rates. Existing automatic-pricing and full trip UI regression checks also run. Not deployed.
+
+### Cortina monthly-review batch 2 — 2026-10-13
+- Processed 25 further catalogue records (operator-page reviews or official-website searches). Added 27 accommodation rates across eight huts: Giussani, Vallandro, Croda da Lago, Fonda Savio, Città di Carpi, Venezia, Fedare and Duca d'Aosta. Saved-price coverage now 20 huts / 116 rates.
+- Fresh Vallandro amounts 86/98 for rooms and 71/83 for dormitories replace outdated search snippets. Giussani fresh page omits obsolete indexed COVID surcharges. Historical/unstated rate years remain explicit. Fedare detailed price page conflicts with its cheaper homepage teaser; recorded page values and conflict note retained, not advertised as guaranteed quotes.
+- Corrected Città di Carpi's parked .com domain to verified operator .it site, with documented source override. Added verified Langalm and Aquileia websites. Retained catalogue has 156 direct website links; presence alone is not a price verification.
+- Langalm operator explicitly states no sleeping facilities. Added visible no-overnight label/detail notice; excluded from accommodation price filters but kept for map/trail exploration. No zero overnight price invented.
+- Public unresolved findings now accompany catalogue and local snapshot; inspected accommodation pages without readable amounts show Contact hut for prices. Blocked/dynamic pages and missing operator websites remain clearly distinguished in the review queue.
+- Added range schema/validation and display for Duca d'Aosta's published 140–150 EUR/person half-board range. Both bounds retained; budget help discloses range/starting-price limits. No default package selected.
+- Queue now has 43 attempted records: 20 with saved rates, 8 needing review, 8 with no readable prices, 1 without overnight accommodation, and 6 searched records still missing operator websites. 253 records await a first review. No claim of 43 price-verified huts.
+- 48 pure assertions and reviewed-price browser flow passed, including corrected website, Langalm notice and displayed price range. Full trip UI regression also run. Still unpublished, including the previous chat-operated reviewer batch.
+
+### Cortina and nearby-route review batch 3 — 2026-10-13
+- Processed another 25 records with primary-site inspection or operator-site research. Added 19 original rate entries for Staulanza, Fodara Vedla, Scotter-Palatini, Vandelli, Ahner Berghof and Stiendlalm. Stored coverage now 26 huts / 135 rates.
+- Staulanza's four room types retain from-price labels. Scotter retains provided-linen versus own-bag accommodation rates without computing B&B totals. Vandelli 2026 rate year is separate from its 2027 opening notice. Fodara's only readable dormitory amount is stored with explicit partial-coverage notes; other room/child tariffs are not invented.
+- Stiendlalm's four seasonal whole-hut rental amounts retain per-hut/night units, published date bands, minimum three/seven-night stays and separate cleaning/pet/tax fees. No division by occupancy; per-person cap excludes whole-hut totals. Added this unit to record validation.
+- Added five verified website links: Bosi, Piezza/Da Aurelio, Sasso Bianco, Vandelli and Fertazza. Source dates/provenance preserved. Palafavera starting values remain unresolved because price units are unclear. Sasso Bianco operator notice of ended summer-2026 management retained as a review reason, not treated as next-season availability.
+- Total queue: 68 attempted, 228 untouched. 26 have saved rates; 13 need review, 14 inspected pages have no readable tariffs, 1 explicitly lacks overnight accommodation; 14 website searches remain unresolved. Review attempts are not all price verifications.
+- Pure suites passed; reviewed-price browser flow checks new whole-hut units, fees/minimum-stay notes and exclusion of cheap whole-hut totals from per-person caps. This and previous reviewer batches remain unpublished.

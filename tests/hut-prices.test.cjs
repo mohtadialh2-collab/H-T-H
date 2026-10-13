@@ -1,5 +1,5 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('fs'),path=require('path');
-const {parse,fetchRates}=require('../demo/api/_hut-prices'),handler=require('../demo/api/hut-prices');
+const {parse,fetchRates}=require('../demo/api/_hut-prices'),handler=require('../demo/api/hut-prices').createHandler({});
 const html=fs.readFileSync(path.join(__dirname,'fixtures/galassi-prices.html'),'utf8');
 test('retains every package and member column without mistaking extras or currency decimals',()=>{
  const result=parse(html,'galassi');assert.equal(result.year,2026);assert.equal(result.rates.length,6);assert.deepEqual(result.rates.map(r=>r.amount),[45,55,69,20,27.5,34.5]);assert(result.rates.every(r=>r.unit==='per person / night'));

@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+const fs=require('fs'),path=require('path'),{validRecord}=require('../demo/api/_reviewed-prices');
+const root=path.join(__dirname,'..'),catalogue=require('../demo/data/dolomites.json'),recordPath=path.join(root,'demo/data/hut-prices-reviewed.json'),queuePath=path.join(root,'agents/hut-price-review/queue.json');
+const load=p=>fs.existsSync(p)?JSON.parse(fs.readFileSync(p,'utf8')):{},save=(p,d)=>{fs.writeFileSync(p+'.tmp',JSON.stringify(d,null,2)+'\n');fs.renameSync(p+'.tmp',p);};
+function queue(records,old={}){return Object.fromEntries(catalogue.huts.map(h=>[h.id,{name:h.name,site:h.site,status:h.site?'pending':'missing_website',...old[h.id],name:h.name,site:h.site,...(records[h.id]?{status:'verified',checkedAt:records[h.id].checkedAt,reviewDueAt:records[h.id].reviewDueAt,sourceUrl:records[h.id].sourceUrl}:{})}]));}
+function run(args){const records=load(recordPath);if(args[0]==='apply'){
+ const batch=JSON.parse(fs.readFileSync(args[1],'utf8'));if(!Array.isArray(batch)||!batch.length)throw Error('Supply a nonempty array of reviewed records.');const ids=new Set();
+ for(const r of batch){if(!validRecord(r)||!catalogue.huts.some(h=>h.id===r.hutId)||ids.has(r.hutId))throw Error('Invalid/duplicate record or unknown hut.');ids.add(r.hutId);if(records[r.hutId]&&Date.parse(r.checkedAt)<Date.parse(records[r.hutId].checkedAt))throw Error('Cannot replace a newer review.');}
+ const history=path.join(root,'agents/hut-price-review/history.jsonl');fs.appendFileSync(history,JSON.stringify({appliedAt:new Date().toISOString(),changes:batch.map(after=>({before:records[after.hutId]||null,after}))})+'\n');for(const r of batch)records[r.hutId]=r;save(recordPath,records);
+ }else if(args[0]&&!['queue','status'].includes(args[0]))throw Error('Use apply <json>, queue, or status.');
+ const q=queue(records,load(queuePath));save(queuePath,q);save(path.join(root,'demo/data/hut-review-findings.json'),Object.fromEntries(Object.entries(q).filter(([,x])=>!['pending','verified'].includes(x.status)&&x.checkedAt).map(([id,x])=>[id,Object.fromEntries(['status','checkedAt','reviewDueAt','reason','sourceUrl'].filter(k=>x[k]!==undefined).map(k=>[k,x[k]]))])));const totals={};for(const item of Object.values(q))totals[item.status]=(totals[item.status]||0)+1;console.log(JSON.stringify({total:catalogue.huts.length,statuses:totals,attempted:Object.values(q).filter(x=>x.checkedAt).length,overdue:Object.values(q).filter(x=>x.reviewDueAt&&Date.parse(x.reviewDueAt)<=Date.now()).length}));
+}
+if(require.main===module){try{run(process.argv.slice(2));}catch(e){console.error(e.message);process.exit(1);}}module.exports={queue};

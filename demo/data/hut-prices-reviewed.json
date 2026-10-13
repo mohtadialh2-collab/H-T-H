@@ -1,0 +1,4156 @@
+{
+  "osm-way-200335125": {
+    "hutId": "osm-way-200335125",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T18:53:45.389Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugio5torri.it/en/rooms.html",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Private room · standard rate",
+        "amount": 97,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Private room · standard rate",
+        "amount": 77,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Shared dormitory · standard rate",
+        "amount": 86,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Shared dormitory · standard rate",
+        "amount": 66,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Children up to 2 years: free accommodation; published discounts of €25 up to age 7 and €20 up to age 12. Discount application and eligibility need operator confirmation.",
+      "Summer-only stays. Shower token €5 is extra."
+    ],
+    "evidence": "Reviewed official accommodation price section, including package labels, eligibility columns, amount units and explicitly published season/year headings.",
+    "availability": "Not checked"
+  },
+  "osm-relation-19526395": {
+    "hutId": "osm-relation-19526395",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T18:53:45.389Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiogalassi.it/en_GB/prezzi/",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Under 25 Alpin Club Members",
+        "amount": 45,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Alpin Club Members",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Not members",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Under 25 Alpin Club Members",
+        "amount": 20,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Alpin Club Members",
+        "amount": 27.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Not members",
+        "amount": 35,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Half-board includes breakfast, dinner and accommodation; dinner drinks excluded."
+    ],
+    "evidence": "Reviewed official accommodation price section, including package labels, eligibility columns, amount units and explicitly published season/year headings.",
+    "availability": "Not checked"
+  },
+  "osm-way-83855898": {
+    "hutId": "osm-way-83855898",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T18:53:45.389Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.drei-schuster-huette.com/it/prezzi-prenotazione-online.php",
+    "year": null,
+    "rates": [
+      {
+        "package": "Accommodation · free for children under 4",
+        "eligibility": "Children under 4 · CAI members",
+        "amount": 0,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Accommodation · free for children under 4",
+        "eligibility": "Children under 4 · Nonmembers",
+        "amount": 0,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · dormitory",
+        "eligibility": "Children ages 4–6.99 · CAI members",
+        "amount": 36,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · dormitory",
+        "eligibility": "Children ages 4–6.99 · Nonmembers",
+        "amount": 46,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · 20-bed room",
+        "eligibility": "Children ages 4–6.99 · CAI members",
+        "amount": 40,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · 20-bed room",
+        "eligibility": "Children ages 4–6.99 · Nonmembers",
+        "amount": 50,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · double room",
+        "eligibility": "Children ages 4–6.99 · CAI members",
+        "amount": 45,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · double room",
+        "eligibility": "Children ages 4–6.99 · Nonmembers",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · dormitory",
+        "eligibility": "Juniors ages 7–13.99 · CAI members",
+        "amount": 56,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · dormitory",
+        "eligibility": "Juniors ages 7–13.99 · Nonmembers",
+        "amount": 66,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · 20-bed room",
+        "eligibility": "Juniors ages 7–13.99 · CAI members",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · 20-bed room",
+        "eligibility": "Juniors ages 7–13.99 · Nonmembers",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · double room",
+        "eligibility": "Juniors ages 7–13.99 · CAI members",
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · double room",
+        "eligibility": "Juniors ages 7–13.99 · Nonmembers",
+        "amount": 75,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · dormitory",
+        "eligibility": "Ages 14 and above · CAI members",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · dormitory",
+        "eligibility": "Ages 14 and above · Nonmembers",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · 20-bed room",
+        "eligibility": "Ages 14 and above · CAI members",
+        "amount": 74,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · 20-bed room",
+        "eligibility": "Ages 14 and above · Nonmembers",
+        "amount": 84,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · double room",
+        "eligibility": "Ages 14 and above · CAI members",
+        "amount": 79,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · double room",
+        "eligibility": "Ages 14 and above · Nonmembers",
+        "amount": 89,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "All published age and membership rates retained. Cancellation charges excluded."
+    ],
+    "evidence": "Reviewed official accommodation price section, including package labels, eligibility columns, amount units and explicitly published season/year headings.",
+    "availability": "Not checked"
+  },
+  "osm-way-200336118": {
+    "hutId": "osm-way-200336118",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T18:53:45.389Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://rifugiolagazuoi.com/EN/p2-Overnight-stay-at-Rifugio-Lagazuoi",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed and breakfast · dormitory",
+        "eligibility": "Summer 2026 · standard rate",
+        "amount": 85,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast · dormitory",
+        "eligibility": "Winter 2027 · standard rate",
+        "amount": 85,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2027,
+        "season": "winter"
+      },
+      {
+        "package": "Bed and breakfast · double room",
+        "eligibility": "Summer 2026 · standard rate",
+        "amount": 260,
+        "currency": "EUR",
+        "unit": "per room / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast · double room",
+        "eligibility": "Winter 2027 · standard rate",
+        "amount": 260,
+        "currency": "EUR",
+        "unit": "per room / night",
+        "year": 2027,
+        "season": "winter"
+      },
+      {
+        "package": "Bed and breakfast · twin room with balcony",
+        "eligibility": "Summer 2026 · standard rate",
+        "amount": 250,
+        "currency": "EUR",
+        "unit": "per room / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast · twin room with balcony",
+        "eligibility": "Winter 2027 · standard rate",
+        "amount": 250,
+        "currency": "EUR",
+        "unit": "per room / night",
+        "year": 2027,
+        "season": "winter"
+      },
+      {
+        "package": "Bed and breakfast · triple room with wall bed",
+        "eligibility": "Summer 2026 · standard rate",
+        "amount": 375,
+        "currency": "EUR",
+        "unit": "per room / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast · triple room with wall bed",
+        "eligibility": "Winter 2027 · standard rate",
+        "amount": 375,
+        "currency": "EUR",
+        "unit": "per room / night",
+        "year": 2027,
+        "season": "winter"
+      },
+      {
+        "package": "Bed and breakfast · twin room with bunk bed",
+        "eligibility": "Summer 2026 · standard rate",
+        "amount": 250,
+        "currency": "EUR",
+        "unit": "per room / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast · twin room with bunk bed",
+        "eligibility": "Winter 2027 · standard rate",
+        "amount": 250,
+        "currency": "EUR",
+        "unit": "per room / night",
+        "year": 2027,
+        "season": "winter"
+      },
+      {
+        "package": "Bed and breakfast · triple room",
+        "eligibility": "Summer 2026 · standard rate",
+        "amount": 375,
+        "currency": "EUR",
+        "unit": "per room / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast · triple room",
+        "eligibility": "Winter 2027 · standard rate",
+        "amount": 375,
+        "currency": "EUR",
+        "unit": "per room / night",
+        "year": 2027,
+        "season": "winter"
+      },
+      {
+        "package": "Bed and breakfast · quadruple room with wall bed",
+        "eligibility": "Summer 2026 · standard rate",
+        "amount": 500,
+        "currency": "EUR",
+        "unit": "per room / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast · quadruple room with wall bed",
+        "eligibility": "Winter 2027 · standard rate",
+        "amount": 500,
+        "currency": "EUR",
+        "unit": "per room / night",
+        "year": 2027,
+        "season": "winter"
+      }
+    ],
+    "notes": [
+      "Dinner is a separate €35 per person charge; not a standalone half-board stay. Sauna, luggage, New Year dinner and tourist tax are separate.",
+      "Room prices are total room prices; no assumed division by occupancy."
+    ],
+    "evidence": "Reviewed official accommodation price section, including package labels, eligibility columns, amount units and explicitly published season/year headings.",
+    "availability": "Not checked"
+  },
+  "osm-way-121491779": {
+    "hutId": "osm-way-121491779",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T18:53:45.389Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://rifugiobiella.it/en/hut/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Standard rate",
+        "amount": 90,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Children under 10 or mountain guides with valid card",
+        "amount": 45,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tourist tax €1.50 per person/night is separate; sleeping-bag liner €8 is not accommodation."
+    ],
+    "evidence": "Official hut page Prices section lists standard half-board and a discounted child/guide amount; no rate year is stated.",
+    "availability": "Not checked"
+  },
+  "osm-way-196574944": {
+    "hutId": "osm-way-196574944",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T18:53:45.389Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiocarducci.eu/index.php?id=tariffe",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed only",
+        "eligibility": "CAI members",
+        "amount": 27.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "CAI members up to age 25",
+        "amount": 24.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Nonmembers",
+        "amount": 34.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · à la carte menu",
+        "eligibility": "CAI members",
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · à la carte menu",
+        "eligibility": "CAI members up to age 25",
+        "amount": 58,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · à la carte menu",
+        "eligibility": "Nonmembers",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Breakfast €15, liner rental €7 and showers €10/€14 are separate extras."
+    ],
+    "evidence": "Official Tariffe table lists three member/age categories for accommodation and half-board. Copyright year was not used as rate year.",
+    "availability": "Not checked"
+  },
+  "osm-way-74495667": {
+    "hutId": "osm-way-74495667",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T18:53:45.389Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiovajolet.com/eng/prezzi.asp",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "CAI / DAV / OeAV members",
+        "amount": 34,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "CAI / DAV / OeAV members",
+        "amount": 58,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "CAI / DAV / OeAV members up to age 25",
+        "amount": 25.5,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "CAI / DAV / OeAV members up to age 25",
+        "amount": 49.5,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Nonmembers",
+        "amount": 56.5,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Nonmembers",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Nonmember children up to age 12",
+        "amount": 25.5,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Nonmember children ages 13–17",
+        "amount": 34,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Nonmember children up to age 12",
+        "amount": 49.5,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Nonmember children ages 13–17",
+        "amount": 58,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      }
+    ],
+    "notes": [
+      "Summer rates. Personal liner required; rental/purchase and coin-operated showers cost extra."
+    ],
+    "evidence": "Official Prices summer 2026 page separates member, nonmember and youth packages.",
+    "availability": "Not checked"
+  },
+  "osm-way-200217396": {
+    "hutId": "osm-way-200217396",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T18:53:45.389Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://rifugiocittadifiume.it/pernotto/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Summer 2026 · Standard rate",
+        "amount": 78,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Summer 2026 · CAI members",
+        "amount": 62.5,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Summer 2026 · CAI members under 25",
+        "amount": 54.5,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Summer 2026 · Standard rate",
+        "amount": 47,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Summer 2026 · CAI members",
+        "amount": 39,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Summer 2026 · Under 18",
+        "amount": 43,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Summer 2026 · CAI members under 25",
+        "amount": 35,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Winter 2025–2026 · Standard rate",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "winter"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Winter 2025–2026 · Alpine Club members",
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "winter"
+      }
+    ],
+    "notes": [
+      "Under-18 half-board discount: 10% in both published seasons; no derived amount or assumed discount combination.",
+      "Private-room half-board supplements: €40/person for a three-person room, €25 for four, €20 for five. Availability required.",
+      "Breakfast €15 and tourist tax €1.50/person/night are separate. Different-language booking conditions conflict; confirm booking terms directly."
+    ],
+    "evidence": "Official summer 2026 and winter 2025–2026 price tables agree across languages; discount formulas retained in notes.",
+    "availability": "Not checked"
+  },
+  "osm-way-368645471": {
+    "hutId": "osm-way-368645471",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T18:53:45.389Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://lavarella.it/en/prices/summer",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board · Room",
+        "eligibility": "Summer 2026 · 6 June–11 October",
+        "amount": 105,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "priceType": "from",
+        "year": 2026,
+        "season": "summer",
+        "sourceUrl": "https://lavarella.it/en/prices/summer"
+      },
+      {
+        "package": "Half-board · Sleeping room / dormitory",
+        "eligibility": "Summer 2026 · 6 June–11 October",
+        "amount": 99,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "priceType": "from",
+        "year": 2026,
+        "season": "summer",
+        "sourceUrl": "https://lavarella.it/en/prices/summer"
+      },
+      {
+        "package": "Half-board · Room",
+        "eligibility": "Winter 2026–2027 · 26 Dec–10 Jan and 29 Jan–11 Apr",
+        "amount": 109,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "priceType": "from",
+        "year": 2027,
+        "season": "winter",
+        "sourceUrl": "https://lavarella.it/en/prices/wiinter"
+      },
+      {
+        "package": "Half-board · Sleeping room / dormitory",
+        "eligibility": "Winter 2026–2027 · 26 Dec–10 Jan and 29 Jan–11 Apr",
+        "amount": 98,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "priceType": "from",
+        "year": 2027,
+        "season": "winter",
+        "sourceUrl": "https://lavarella.it/en/prices/wiinter"
+      }
+    ],
+    "notes": [
+      "All amounts are starting prices; final quotes can be higher. Bed-only and B&B amounts are not published on these lists."
+    ],
+    "evidence": "Official summer and winter price pages state per-person/day units, dated periods and starting half-board amounts.",
+    "availability": "Not checked"
+  },
+  "osm-way-152266832": {
+    "hutId": "osm-way-152266832",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T18:55:19.297Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiopuez.it/en/sleeping-at-puez/",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Adult Alpine Club members (CAI, AVS and reciprocal clubs)",
+        "amount": 72,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "CAI members ages 0–25",
+        "amount": 63,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Nonmembers",
+        "amount": 90,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Published rate; no separate member discount stated",
+        "amount": 50,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Member discounts require a current membership card. Half-board drinks excluded. Shower €4 is extra."
+    ],
+    "evidence": "Official Prices 2026 section lists explicit member and nonmember half-board values and a separate B&B value; amounts are per person.",
+    "availability": "Not checked"
+  },
+  "osm-way-196574945": {
+    "hutId": "osm-way-196574945",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T18:55:19.297Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiopiandicengia.it/en/sleep-eat/",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board · dormitory",
+        "eligibility": "Standard rate; no Alpine Club discount",
+        "amount": 83,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Only half-board overnight stays offered. Cash only. Personal liner required."
+    ],
+    "evidence": "Official PRICES 2026 section gives one overnight half-board package including dinner and breakfast.",
+    "availability": "Not checked"
+  },
+  "osm-way-103325526": {
+    "hutId": "osm-way-103325526",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T18:55:19.297Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.sennes.com/en/tour/the-rooms/index.php",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed and breakfast · Dormitory · shared shower/WC",
+        "eligibility": "Summer 2027 · 6 June–2 October",
+        "amount": 59,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "year": 2027,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast · Dormitory · shared shower/WC",
+        "eligibility": "Winter 2026–2027 · 26 December–6 January",
+        "amount": 59,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "year": 2027,
+        "season": "winter"
+      },
+      {
+        "package": "Bed and breakfast · Dormitory · shared shower/WC",
+        "eligibility": "Winter 2026–2027 · 31 January–31 March",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "year": 2027,
+        "season": "winter"
+      },
+      {
+        "package": "Bed and breakfast · Room · shared shower/WC",
+        "eligibility": "Summer 2027 · 6 June–2 October",
+        "amount": 69,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "year": 2027,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast · Room · shared shower/WC",
+        "eligibility": "Winter 2026–2027 · 26 December–6 January",
+        "amount": 69,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "year": 2027,
+        "season": "winter"
+      },
+      {
+        "package": "Bed and breakfast · Room · shared shower/WC",
+        "eligibility": "Winter 2026–2027 · 31 January–31 March",
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "year": 2027,
+        "season": "winter"
+      },
+      {
+        "package": "Bed and breakfast · Room · private shower/WC",
+        "eligibility": "Summer 2027 · 6 June–2 October",
+        "amount": 79,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "year": 2027,
+        "season": "summer"
+      },
+      {
+        "package": "Bed and breakfast · Room · private shower/WC",
+        "eligibility": "Winter 2026–2027 · 26 December–6 January",
+        "amount": 79,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "year": 2027,
+        "season": "winter"
+      },
+      {
+        "package": "Bed and breakfast · Room · private shower/WC",
+        "eligibility": "Winter 2026–2027 · 31 January–31 March",
+        "amount": 75,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "year": 2027,
+        "season": "winter"
+      }
+    ],
+    "notes": [
+      "Dinner selected à la carte is separate. Dormitory liner required; bed linen not included.",
+      "Freshly opened page states Summer 2027 and Winter 2026/2027; older indexed snippets stated 2026. Fresh page used."
+    ],
+    "evidence": "Reviewed both published season tables, their date bands and explicit per-person/day breakfast inclusion. Identical repeated winter table deduplicated.",
+    "availability": "Not checked"
+  },
+  "osm-way-200336782": {
+    "hutId": "osm-way-200336782",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:19:37.944Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiogiussani.com/pernottamento-prezzi/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Standard rate",
+        "amount": 73,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "CAI members",
+        "amount": 58.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Standard rate",
+        "amount": 37,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "CAI members",
+        "amount": 30,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Personal liner required. Shower €7 is extra. Rate year not stated. Older indexed COVID surcharges are not present on the freshly opened page."
+    ],
+    "evidence": "Fresh operator accommodation table lists standard and CAI half-board/bed-only amounts. Footer year not used as rate year.",
+    "availability": "Not checked"
+  },
+  "osm-way-103700847": {
+    "hutId": "osm-way-103700847",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:19:37.944Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.vallandro.it/en/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed and breakfast · room",
+        "eligibility": "Standard rate",
+        "amount": 86,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · room",
+        "eligibility": "Standard rate",
+        "amount": 98,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast · dormitory",
+        "eligibility": "Standard rate",
+        "amount": 71,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · dormitory",
+        "eligibility": "Standard rate",
+        "amount": 83,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Room shower charge €6 is separate; dormitory shower included. Cash only. Maximum two-night bookings.",
+      "Fresh page values differ from older search snippets; current page used."
+    ],
+    "evidence": "Official overnight section explicitly states per-person/night units and separate room and dormitory packages.",
+    "availability": "Not checked"
+  },
+  "osm-way-201021755": {
+    "hutId": "osm-way-201021755",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:19:37.944Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.crodadalago.it/pernottamento-e-prezzi/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed only",
+        "eligibility": "Standard rate",
+        "amount": 32,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "CAI members",
+        "amount": 25.6,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Standard rate",
+        "amount": 73,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "CAI members",
+        "amount": 58.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Breakfast €14, shower €7 and tourist tax €1.50 are separate. Wastewater contribution €3 is already included.",
+      "Operator pages give different end dates for the half-board-only autumn period; confirm date restrictions directly."
+    ],
+    "evidence": "Official per-person accommodation table verified; no explicit rate year.",
+    "availability": "Not checked"
+  },
+  "osm-way-200785535": {
+    "hutId": "osm-way-200785535",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:19:37.944Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.fonda-savio.it/italiano/pernottamento-prezzi/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board · room",
+        "eligibility": "Alpine Club members",
+        "amount": 72,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · room",
+        "eligibility": "Standard rate",
+        "amount": 81,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · dormitory",
+        "eligibility": "Alpine Club members",
+        "amount": 69,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · dormitory",
+        "eligibility": "Standard rate",
+        "amount": 78,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Fixed three-course half-board menu. Cash only. No explicit rate year."
+    ],
+    "evidence": "Official accommodation page explicitly states per-person/night rates and separates rooms from dormitories.",
+    "availability": "Not checked"
+  },
+  "osm-way-200785544": {
+    "hutId": "osm-way-200785544",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:19:37.944Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://rifugiocittadicarpi.it/prezzi-prenotazioni/",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Standard rate; no CAI discount",
+        "amount": 75,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026,
+        "season": "summer"
+      }
+    ],
+    "notes": [
+      "Summer 2026 rates. Only half-board bookings accepted. Cash only. Personal liner required.",
+      "Current operator .it site replaces the parked .com domain."
+    ],
+    "evidence": "Official summer 2026 accommodation section explicitly states per-person/night unit and no CAI discounts.",
+    "availability": "Not checked"
+  },
+  "osm-way-383696227": {
+    "hutId": "osm-way-383696227",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:19:37.944Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiovenezia.it/pernottamento/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed only",
+        "eligibility": "CAI / reciprocal-club members",
+        "amount": 25.6,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Nonmembers",
+        "amount": 32,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "CAI members under 25",
+        "amount": 22.4,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "CAI / reciprocal-club members",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Nonmembers",
+        "amount": 75,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "CAI members under 25",
+        "amount": 52,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tourist tax €1.50 per person is separate. Valid membership card required. Half-board drinks excluded."
+    ],
+    "evidence": "Fresh official accommodation section lists bed-only and half-board in three membership categories. Article update date is not a rate year.",
+    "availability": "Not checked"
+  },
+  "osm-node-627949709": {
+    "hutId": "osm-node-627949709",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:19:37.944Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://valfiorentinadolomiti.it/en/Rifugio-Fedare-Passo-Giau/The_rooms/Room-prices.html",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Published room-price page rate",
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Published room-price page rate",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tourist tax €1.50 per person/day is separate.",
+      "Homepage still advertises a minimum €55 B&B amount, conflicting with the detailed €65 room-price page. These are source-recorded page rates; confirm current amount with the operator."
+    ],
+    "evidence": "Operator room-price page explicitly lists per-person/night B&B and half-board; conflicting teaser is preserved in notes rather than chosen as a cheaper package.",
+    "availability": "Not checked"
+  },
+  "osm-way-200799530": {
+    "hutId": "osm-way-200799530",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:19:37.944Z",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugioducadaosta.com/prezzi/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Summer 2026",
+        "amount": 140,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "priceType": "range",
+        "maxAmount": 150,
+        "year": 2026,
+        "season": "summer"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Winter 2026–2027",
+        "amount": 140,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "priceType": "range",
+        "maxAmount": 150,
+        "year": 2027,
+        "season": "winter"
+      }
+    ],
+    "notes": [
+      "Published range €140–€150 per person; exact booking price requires confirmation."
+    ],
+    "evidence": "Official price page labels Summer 2026 and Winter 2026/27 and publishes a per-person half-board range; neither bound is treated as a fixed price.",
+    "availability": "Not checked"
+  },
+  "osm-way-200217382": {
+    "hutId": "osm-way-200217382",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:26:15.693429+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.staulanza.it/camere.php",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board · Double room",
+        "eligibility": "Published starting rate; no CAI discount",
+        "amount": 112,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "priceType": "from"
+      },
+      {
+        "package": "Half-board · Triple / quadruple room",
+        "eligibility": "Published starting rate; no CAI discount",
+        "amount": 110,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "priceType": "from"
+      },
+      {
+        "package": "Half-board · Dormitory",
+        "eligibility": "Published starting rate; no CAI discount",
+        "amount": 95,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "priceType": "from"
+      },
+      {
+        "package": "Half-board · Single room",
+        "eligibility": "Published starting rate; no CAI discount",
+        "amount": 120,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "priceType": "from"
+      }
+    ],
+    "notes": [
+      "All amounts are per-person starting prices. No rate year stated. Single-room guests need a liner and towel."
+    ],
+    "evidence": "Official room details publish four starting amounts per person, each labelled half-board.",
+    "availability": "Not checked"
+  },
+  "osm-way-254880745": {
+    "hutId": "osm-way-254880745",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:26:15.693429+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.fodara.it/en",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board · shared bunk room",
+        "eligibility": "Published dormitory rate",
+        "amount": 104,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Private rooms and child reductions described, but their numeric rates are not readable. Saved price coverage is partial; confirm other packages.",
+      "Personal liner required for shared rooms. Rate year not stated."
+    ],
+    "evidence": "Official LAGER section explicitly states 104 EUR/person/night half-board.",
+    "availability": "Not checked"
+  },
+  "osm-way-202012091": {
+    "hutId": "osm-way-202012091",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:26:15.693429+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugioscotter.it/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board · provided linen",
+        "eligibility": "Summer · standard rate",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "season": "summer"
+      },
+      {
+        "package": "Bed only · provided linen",
+        "eligibility": "Summer · standard rate",
+        "amount": 41,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "season": "summer"
+      },
+      {
+        "package": "Half-board · own sleeping bag / liner",
+        "eligibility": "Summer · own bag or liner",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "season": "summer"
+      },
+      {
+        "package": "Bed only · own sleeping bag / liner",
+        "eligibility": "Summer · own bag or liner",
+        "amount": 34,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "season": "summer"
+      }
+    ],
+    "notes": [
+      "Breakfast €11 is separate from bed-only prices; tourist tax €1.50 is extra. No rate year stated.",
+      "No B&B totals derived by adding charges."
+    ],
+    "evidence": "Official summer stay section publishes per-person accommodation and half-board, including separate own-bag/liner rates.",
+    "availability": "Not checked"
+  },
+  "osm-way-200789472": {
+    "hutId": "osm-way-200789472",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:26:15.693429+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://rifugiovandelli.it/prenotazioni-e-prezzi/",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board · shared dormitory",
+        "eligibility": "Nonmembers",
+        "amount": 75,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board · shared dormitory",
+        "eligibility": "CAI / reciprocal-club members",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only · shared dormitory",
+        "eligibility": "Nonmembers",
+        "amount": 32,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only · shared dormitory",
+        "eligibility": "CAI / reciprocal-club members",
+        "amount": 25.6,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Personal liner/bag required. Current membership card required. Breakfast €15, disposable liner €10, lunch bag €12 and tourist tax €1.50 are separate.",
+      "2027 opening date is not the rate year; table explicitly says 2026. One-night bookings only."
+    ],
+    "evidence": "Official 2026 dormitory price section separates member eligibility and bed-only/half-board packages.",
+    "availability": "Not checked"
+  },
+  "osm-node-14204563901": {
+    "hutId": "osm-node-14204563901",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:26:15.693429+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.ahner-berghof.com/wohnen/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board · Family suite",
+        "eligibility": "Published starting rate",
+        "amount": 105,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "priceType": "from"
+      },
+      {
+        "package": "Half-board · Garden suite",
+        "eligibility": "Published starting rate",
+        "amount": 95,
+        "currency": "EUR",
+        "unit": "per person / day",
+        "priceType": "from"
+      }
+    ],
+    "notes": [
+      "Starting amounts per person/day, not suite totals. No rate year stated."
+    ],
+    "evidence": "Official accommodation page labels two suite types, per-person/day starting values and half-board inclusion.",
+    "availability": "Not checked"
+  },
+  "osm-way-125508403": {
+    "hutId": "osm-way-125508403",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:26:15.693429+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.stiendlalm.at/preise/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Self-catering · entire hut",
+        "eligibility": "Winter low season · 2026–2027",
+        "amount": 185,
+        "currency": "EUR",
+        "unit": "per hut / night"
+      },
+      {
+        "package": "Self-catering · entire hut",
+        "eligibility": "Winter high season · 2026–2027",
+        "amount": 195,
+        "currency": "EUR",
+        "unit": "per hut / night"
+      },
+      {
+        "package": "Self-catering · entire hut",
+        "eligibility": "Summer low season · 2026–2027",
+        "amount": 140,
+        "currency": "EUR",
+        "unit": "per hut / night"
+      },
+      {
+        "package": "Self-catering · entire hut",
+        "eligibility": "Summer high season · 2026–2027",
+        "amount": 150,
+        "currency": "EUR",
+        "unit": "per hut / night"
+      }
+    ],
+    "notes": [
+      "Entire-hut nightly rental for up to five, not per-person rates. Per-person budget filter excludes these totals.",
+      "Winter low: 1 Nov–18 Dec 2026, 9–29 Jan, 27 Feb–19 Mar, 30 Mar–30 Apr 2027. Winter high: 19 Dec 2026–8 Jan 2027, 30 Jan–26 Feb, 20–29 Mar 2027.",
+      "Summer low: 6 Sep–8 Nov 2026, 1 May–2 Jul and 12 Sep–31 Oct 2027. Summer high: 27 Jun–5 Sep 2026, 3 Jul–11 Sep 2027.",
+      "Minimum stay: seven nights high season, three low season. Cleaning €50, pet fee €30 and tourist tax €2.60/person/night extra. Firewood and electricity included."
+    ],
+    "evidence": "Operator hut-rental page publishes four season bands and whole-hut nightly amounts. No assumed division by occupancy.",
+    "availability": "Not checked"
+  },
+  "osm-way-121497039": {
+    "hutId": "osm-way-121497039",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:39:14.652017+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.juac.it/it/camere-prezzi.asp.html",
+    "year": null,
+    "rates": [
+      {
+        "package": "Summer bed and breakfast",
+        "eligibility": "Dormitory",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / day"
+      },
+      {
+        "package": "Summer bed and breakfast",
+        "eligibility": "4-bed room",
+        "amount": 75,
+        "currency": "EUR",
+        "unit": "per person / day"
+      },
+      {
+        "package": "Winter half-board",
+        "eligibility": "Dormitory",
+        "amount": 85,
+        "currency": "EUR",
+        "unit": "per person / day"
+      },
+      {
+        "package": "Winter half-board",
+        "eligibility": "4-bed room",
+        "amount": 95,
+        "currency": "EUR",
+        "unit": "per person / day"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. Summer dinner is charged separately; winter includes breakfast and dinner. Linen provided; bathrooms shared."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-152250684": {
+    "hutId": "osm-way-152250684",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:39:14.652038+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiofronza.com/prezzi-info-utili/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bunk bed and breakfast",
+        "eligibility": "Alpine club member",
+        "amount": 40,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bunk bed and breakfast",
+        "eligibility": "Non-member",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast with linen and towels",
+        "eligibility": "Alpine club member",
+        "amount": 50,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast with linen and towels",
+        "eligibility": "Non-member",
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bunk half-board",
+        "eligibility": "Alpine club member",
+        "amount": 62,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bunk half-board",
+        "eligibility": "Non-member",
+        "amount": 77,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed half-board with linen and towels",
+        "eligibility": "Alpine club member",
+        "amount": 72,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed half-board with linen and towels",
+        "eligibility": "Non-member",
+        "amount": 87,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "2026 is the opening year; the tariff itself has no explicit year. Hot showers use extra tokens.",
+      "Children under 12 accompanied by parents sleep free from 6 June to 5 July; confirm meal charges. Guides with clients stay free; groups receive one free place per 25 people."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-211169010": {
+    "hutId": "osm-way-211169010",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:39:14.652045+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiodona.com/en/rooms-and-prices/",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "7-bed room with bathroom",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "7-bed room with bathroom",
+        "amount": 90,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "6-bed cabin with shared bathroom",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "6-bed cabin with shared bathroom",
+        "amount": 90,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Double room with private bathroom",
+        "amount": 110,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Family room with private bathroom",
+        "amount": 95,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Sleeping bag required. Hot showers included; drinks extra. Cash or bank transfer only."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-291725843": {
+    "hutId": "osm-way-291725843",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:39:14.652051+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiopertini.com/en/rooms-prices/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory adult",
+        "amount": 75,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory child under 10",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "4-bed room occupied by 4 people",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "4-bed room occupied by 3 people",
+        "amount": 85,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. Saturday night supplement €5; drinks extra. Shower €5 subject to water availability; liner required, rental €7 or purchase €18."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-node-476867344": {
+    "hutId": "osm-node-476867344",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:39:14.652063+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.latzfonserkreuz.com/de/unterkunft-preise.html",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Adult age 15+ · Mattress dormitory",
+        "amount": 67,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Adult age 15+ · 6-bed room",
+        "amount": 76,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Adult age 15+ · 2-bed room",
+        "amount": 81,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Youth age 7–14 · Mattress dormitory",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Youth age 7–14 · 6-bed room",
+        "amount": 64,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Youth age 7–14 · 2-bed room",
+        "amount": 69,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Child age 0–6 · Mattress dormitory",
+        "amount": 29,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Child age 0–6 · 6-bed room",
+        "amount": 35,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Child age 0–6 · 2-bed room",
+        "amount": 38,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "No Alpine Club discount. Liner required, hire €5. Shower €2 per minute extra. Dogs only in a designated double room."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-96096595": {
+    "hutId": "osm-way-96096595",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:39:14.652068+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.talschlusshuette.com/en/rooms-prices/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed only",
+        "eligibility": "Shared 4-, 6- or 10-bed room",
+        "amount": 42,
+        "currency": "EUR",
+        "unit": "per person / day"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Shared 4-, 6- or 10-bed room",
+        "amount": 50,
+        "currency": "EUR",
+        "unit": "per person / day"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Shared 4-, 6- or 10-bed room",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / day"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. Tourist tax €2.50 included; shower €4 extra. Winter overnight stays require a group of at least 10. No pets in rooms."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-121599291": {
+    "hutId": "osm-way-121599291",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:39:14.652071+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiofirenze.com/en/",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Room with 1–6 beds",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Room with 1–6 beds · group of at least 10",
+        "amount": 85,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Dormitory",
+        "amount": 48,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · group of at least 10",
+        "amount": 73,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Half-board only for groups of at least 10, including shower and set-menu dinner. Otherwise dinner à la carte.",
+      "Children under 5 free; ages 6–14 receive a published €10 discount (not calculated here). Guides accompanying a group of at least 10 may receive an unspecified discount. Shower separately €3.50; dogs in rooms €8/day. Dormitory liner required."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-240938276": {
+    "hutId": "osm-way-240938276",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:39:14.652076+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiorosetta.it/en/rooms.asp",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Summer half-board",
+        "eligibility": "CAI member",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Non-CAI member",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Young member · age not specified",
+        "amount": 49.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer bed only",
+        "eligibility": "CAI member",
+        "amount": 22,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer bed only",
+        "eligibility": "Non-CAI member",
+        "amount": 44.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer bed only",
+        "eligibility": "Young member · age not specified",
+        "amount": 13.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Summer tariff 20 June–27 September 2026. Breakfast separately €10, not added to bed-only amounts. Shower €7 subject to water supply. Personal liner required."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-187287693": {
+    "hutId": "osm-way-187287693",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:39:14.652079+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.schutzhaus-tschafon.com/",
+    "year": 2027,
+    "rates": [
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Room · own hut liner",
+        "amount": 64,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Room · supplied linen",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Published room tariff is for 2027. Single occupancy supplement €15–25/day; children on request; dog €20/day.",
+      "Panorama hayloft separately lists €88 per person for 2–3 guests and €77 for 4+ guests including linen and breakfast, but its tariff year and nightly basis are not explicitly stated; confirm with operator."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-36021790": {
+    "hutId": "osm-way-36021790",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:40:30.745018+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://rifugiopussa.it/prezzario",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed only",
+        "eligibility": "Room up to 4 beds · Non-CAI member",
+        "amount": 34.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Room up to 4 beds · CAI member",
+        "amount": 27.6,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "10-bed dormitory · Non-CAI member",
+        "amount": 30,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "10-bed dormitory · CAI member",
+        "amount": 24,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Room up to 4 beds · Non-CAI member",
+        "amount": 70.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Room up to 4 beds · CAI member",
+        "amount": 56.4,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "10-bed dormitory · Non-CAI member",
+        "amount": 66,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "10-bed dormitory · CAI member",
+        "amount": 52.8,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. Shower included 17:00–19:00 by arrangement; towel not supplied; liner required. Children under 12 have a 30% discount, not calculated; under 3 pay food consumed only."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-42253280": {
+    "hutId": "osm-way-42253280",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:40:30.745035+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugioforcellapordoi.com/en/rooms-and-prices/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Standard rate",
+        "amount": 85,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Standard rate",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Standard rate",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. Rooms have 1–8 beds. Sleeping bag required; purchase €20."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-42321524": {
+    "hutId": "osm-way-42321524",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:40:30.745041+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.lacrusc.com/prezzi/?lang=en",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Summer bed only",
+        "eligibility": "Standard rate",
+        "amount": 67,
+        "currency": "EUR",
+        "unit": "per person / day"
+      },
+      {
+        "package": "Summer bed and breakfast",
+        "eligibility": "Standard rate",
+        "amount": 72,
+        "currency": "EUR",
+        "unit": "per person / day"
+      }
+    ],
+    "notes": [
+      "Overnight season 22 June–26 September 2026. Linen, towel and shared shower included; pets not accepted."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-183196074": {
+    "hutId": "osm-way-183196074",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:40:30.745053+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://rifugiotissi.com/EN/p40-Rates-and-Reservations",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Summer bed only",
+        "eligibility": "Dormitory · Standard rate",
+        "amount": 34.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer bed only",
+        "eligibility": "Dormitory · Alpine club member",
+        "amount": 27.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer bed only",
+        "eligibility": "Room up to 4 beds · Standard rate",
+        "amount": 39,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer bed only",
+        "eligibility": "Room up to 4 beds · Alpine club member",
+        "amount": 31.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Private room · Standard rate",
+        "amount": 94,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Private room · Alpine club member",
+        "amount": 94,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "4-bed room · Standard rate",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "4-bed room · Alpine club member",
+        "amount": 64,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Dormitory · Standard rate",
+        "amount": 76,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Dormitory · Alpine club member",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Large dormitory · Standard rate",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Large dormitory · Alpine club member",
+        "amount": 56,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Child under 10 · Standard rate",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Child under 10 · Alpine club member",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tourist tax €1/person extra. Breakfast separately €16, not added to bed-only prices. Half-board includes dinner and buffet breakfast."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-42223145": {
+    "hutId": "osm-way-42223145",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:40:30.745059+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiocapannapizfassa.com/en/rooms/prices/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Sunday–Friday",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Saturday",
+        "amount": 90,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. Rates are per person for overnight half-board."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-103589635": {
+    "hutId": "osm-way-103589635",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:40:30.745062+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugioconseria.it/prezzi.php",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Standard rate",
+        "amount": 67,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Standard rate",
+        "amount": 35,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Child age 0–8",
+        "amount": 34,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Child age 9–12",
+        "amount": 47,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "CAI member",
+        "amount": 63.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Half-board includes dinner and breakfast; drinks extra except local water. Breakfast separately €12; liner rental €5. Tent pitch €15 without shower is not a hut accommodation rate."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-123811150": {
+    "hutId": "osm-way-123811150",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:40:30.745071+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiorealberto.com/en/rooms-prices.asp",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Private room occupied by 2–3 people · Adult",
+        "amount": 105,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Private room occupied by 2–3 people · Child age 0–10",
+        "amount": 85,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Private room occupied by 2–3 people · Adult",
+        "amount": 85,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Private room occupied by 2–3 people · Child age 0–10",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Private room occupied by 4–5 people · Adult",
+        "amount": 95,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Private room occupied by 4–5 people · Child age 0–10",
+        "amount": 75,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Private room occupied by 4–5 people · Adult",
+        "amount": 75,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Private room occupied by 4–5 people · Child age 0–10",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory occupied by 6+ people · Adult",
+        "amount": 88,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory occupied by 6+ people · Child age 0–10",
+        "amount": 68,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Dormitory occupied by 6+ people · Adult",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Dormitory occupied by 6+ people · Child age 0–10",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "UIAGM guide",
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Prices depend on actual room occupancy, not nominal room capacity. No alpine club discount. Single occupancy supplement €30/day; drinks extra.",
+      "Official page contradicts itself on shower tokens (€3 and €4 for three minutes); confirm this extra with operator. Liner required, hire €7 or purchase €20."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-node-11056910068": {
+    "hutId": "osm-node-11056910068",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:40:30.745078+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.schlueterhuette.com/en/overnight-stays-prices-schlueterhuette.html",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Bed with linen",
+        "amount": 54,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Bed without linen",
+        "amount": 48,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Dormitory",
+        "amount": 43,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Bed with linen",
+        "amount": 39,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Bed without linen",
+        "amount": 33,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Dormitory",
+        "amount": 28,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. Children under 12 are listed at €39/€34/€30 for the three room categories, but meal basis is unclear; confirm before booking. Adult breakfast separately €15 and child breakfast €10. Liner needed for beds without linen and dormitory."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-199506055": {
+    "hutId": "osm-way-199506055",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:41:31.800806+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiofalier.altervista.org/index-en.html",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Bed only",
+        "eligibility": "Room · Alpine club member",
+        "amount": 30,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Room · Non-member",
+        "amount": 40,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Dormitory · Alpine club member",
+        "amount": 20,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Dormitory · Non-member",
+        "amount": 30,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Room · Alpine club member",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Room · Non-member",
+        "amount": 90,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · Alpine club member",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · Non-member",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Child up to age 18 · operator wording",
+        "amount": 15,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Child up to age 18 · operator wording",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Confirm eligibility at the 18-year boundary with the operator. Dogs only in rooms, €5 supplement."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-383859034": {
+    "hutId": "osm-way-383859034",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:41:31.800821+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiociareido.it/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Standard rate, including Marmarole Runde hikers",
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. This is the only readable published accommodation package; other arrangements require enquiry."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-199056277": {
+    "hutId": "osm-way-199056277",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:41:31.800841+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugioscarpa.com/hospitality",
+    "year": null,
+    "rates": [
+      {
+        "package": "Summer 2026 half-board",
+        "eligibility": "Alpine club member adult",
+        "amount": 56,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Summer 2026 half-board",
+        "eligibility": "Alpine club member adult · small bedroom if available",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Summer 2026 half-board",
+        "eligibility": "Alpine club member age 15–25",
+        "amount": 49,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Summer 2026 half-board",
+        "eligibility": "Alpine club member age 15–25 · small bedroom if available",
+        "amount": 52,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Summer 2026 half-board",
+        "eligibility": "Alpine club member child 11–14",
+        "amount": 45,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Summer 2026 half-board",
+        "eligibility": "Alpine club member child 3–10",
+        "amount": 35,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Summer 2026 half-board",
+        "eligibility": "Non-member adult",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Summer 2026 half-board",
+        "eligibility": "Non-member adult · small bedroom if available",
+        "amount": 75,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Summer 2026 half-board",
+        "eligibility": "Non-member child 11–14",
+        "amount": 45,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Summer 2026 half-board",
+        "eligibility": "Non-member child 3–10",
+        "amount": 35,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Summer 2026 half-board",
+        "eligibility": "Mountain guide with at least 8 clients",
+        "amount": 45,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 half-board",
+        "eligibility": "Alpine club member adult",
+        "amount": 66,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 half-board",
+        "eligibility": "Alpine club member adult · small bedroom if available",
+        "amount": 73,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 half-board",
+        "eligibility": "Alpine club member age 15–25",
+        "amount": 57,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 half-board",
+        "eligibility": "Alpine club member age 15–25 · small bedroom if available",
+        "amount": 64,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 half-board",
+        "eligibility": "Alpine club member child 6–14",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 half-board",
+        "eligibility": "Alpine club member child 1–6",
+        "amount": 50,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 half-board",
+        "eligibility": "Non-member adult",
+        "amount": 82,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 half-board",
+        "eligibility": "Non-member adult · small bedroom if available",
+        "amount": 89,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 half-board",
+        "eligibility": "Non-member child 6–14",
+        "amount": 62,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 half-board",
+        "eligibility": "Non-member child 1–6",
+        "amount": 52,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 half-board",
+        "eligibility": "Mountain guide with at least 8 clients",
+        "amount": 50,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 half-board",
+        "eligibility": "Infant age 0–11 months",
+        "amount": 0,
+        "currency": "EUR",
+        "unit": "per person / night",
+        "year": 2026
+      }
+    ],
+    "notes": [
+      "Summer 2026 and winter 2026–27 rates retained separately. Booking reserves a bed; small bedroom requests subject to availability.",
+      "Summer child section contradicts itself by listing ages 0–12 free alongside paid ages 3–14. The free summer offer is withheld pending clarification. Winter infants 0–11 months are free; age 6 overlaps two paid bands, confirm eligibility.",
+      "Showers subject to water availability: summer €5, winter €8. Disposable liner summer €5, winter €6."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-node-8018256030": {
+    "hutId": "osm-node-8018256030",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:44:54.745187+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.radlseehuette.it/en_EN/price.html",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Double room · Alpine club member · Adult",
+        "amount": 71,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Double room · Alpine club member · Age 12–17",
+        "amount": 53,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Double room · Alpine club member · Age 6–11",
+        "amount": 46,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Double room · Alpine club member · Age 3–5",
+        "amount": 29,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Double room · Alpine club member · Age 0–2",
+        "amount": 10,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "3–6-bed room · Alpine club member · Adult",
+        "amount": 61,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "3–6-bed room · Alpine club member · Age 12–17",
+        "amount": 49,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "3–6-bed room · Alpine club member · Age 6–11",
+        "amount": 42,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "3–6-bed room · Alpine club member · Age 3–5",
+        "amount": 27,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "3–6-bed room · Alpine club member · Age 0–2",
+        "amount": 8,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · Alpine club member · Adult",
+        "amount": 54,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · Alpine club member · Age 12–17",
+        "amount": 45,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · Alpine club member · Age 6–11",
+        "amount": 38,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · Alpine club member · Age 3–5",
+        "amount": 23,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · Alpine club member · Age 0–2",
+        "amount": 0,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Published table is for Alpine Club members. Non-members pay €12 more, ages 0–5 €7 more; these totals are not calculated. Liner hire €4; shower €4 extra. Dogs use separate winter room, €13 cleaning fee and occupancy-dependent room charge."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-292970157": {
+    "hutId": "osm-way-292970157",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:44:54.745208+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rodadivael.it/en/price-list/",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Summer bed and breakfast",
+        "eligibility": "CAI, DAV or ÖAV member",
+        "amount": 34,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer bed and breakfast",
+        "eligibility": "CAI, DAV or ÖAV junior member up to 25",
+        "amount": 25.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "CAI, DAV or ÖAV member",
+        "amount": 58,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "CAI, DAV or ÖAV junior member up to 25",
+        "amount": 49.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer bed and breakfast",
+        "eligibility": "Non-member adult",
+        "amount": 56.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Non-member adult",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer bed and breakfast",
+        "eligibility": "Non-member child up to 12",
+        "amount": 25.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer bed and breakfast",
+        "eligibility": "Non-member age 13–17",
+        "amount": 34,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Non-member child up to 12",
+        "amount": 49.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Non-member age 13–17",
+        "amount": 58,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Liner required, hire €4/stay or purchase €22. Shower €3 for three minutes."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-36021602": {
+    "hutId": "osm-way-36021602",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:44:54.745216+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiopordenone.it/prezzi/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "CAI member · bunk dormitory",
+        "amount": 63,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "CAI member up to 25 · bunk dormitory",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "CAI member",
+        "amount": 25,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Non-CAI member · bunk dormitory",
+        "amount": 79,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Non-CAI member",
+        "amount": 32,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Adult · treehouse",
+        "amount": 63,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Child under 14 · treehouse",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not explicitly attached to these amounts; unspecified prices refer to 2026 hut tariff. Liner required. Dogs not accepted. Treehouse rates are the separately published amounts, retained without substituting dormitory prices."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-152250682": {
+    "hutId": "osm-way-152250682",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:44:54.745221+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.santnerpass.com/vitto-e-alloggio/",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "2–3-bed room · Sunday–Friday",
+        "amount": 130,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "2–3-bed room · Saturday",
+        "amount": 140,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "4–6-bed room · Sunday–Friday",
+        "amount": 105,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "4–6-bed room · Saturday",
+        "amount": 115,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Half-board includes a four-course vegetarian dinner and breakfast; drinks extra. VAT included. Pets not accepted overnight."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-66387405": {
+    "hutId": "osm-way-66387405",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:44:54.745224+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugio-cimadasta.it/wp-content/uploads/2026/02/Cima-dAsta-Prezzi-2026-1.pdf",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Bed only",
+        "eligibility": "CAI member",
+        "amount": 25,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Non-member",
+        "amount": 32,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "CAI member",
+        "amount": 63,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Non-member",
+        "amount": 77,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Junior CAI member under 25",
+        "amount": 14,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Non-member child under 12",
+        "amount": 22,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Junior CAI member under 25",
+        "amount": 53,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Non-member child under 12",
+        "amount": 58,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Verified the operator-linked 2026 PDF visually. Shower €5; liner required, rental €5 or purchase €25. Member discounts require card. Children under 8 accompanied by a CAI parent may have free bed-only stays for the first three nights under family conditions; meals remain payable, confirm eligibility."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-84679331": {
+    "hutId": "osm-way-84679331",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:44:54.745232+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.dreizinnenhuette.com/booking/Tariffario_CAI_2026.pdf",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Bed only with supplied linen",
+        "eligibility": "Non-member",
+        "amount": 37,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only with supplied linen",
+        "eligibility": "CAI or reciprocal alpine club member",
+        "amount": 30,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only with supplied linen",
+        "eligibility": "Member up to 25",
+        "amount": 26,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only with own liner",
+        "eligibility": "Non-member",
+        "amount": 32,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only with own liner",
+        "eligibility": "CAI or reciprocal alpine club member",
+        "amount": 25,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only with own liner",
+        "eligibility": "Member up to 25",
+        "amount": 22,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board with supplied linen",
+        "eligibility": "Non-member",
+        "amount": 95,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board with supplied linen",
+        "eligibility": "CAI or reciprocal alpine club member",
+        "amount": 76,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board with supplied linen",
+        "eligibility": "Member up to 25",
+        "amount": 66.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board with own liner",
+        "eligibility": "Non-member",
+        "amount": 90,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board with own liner",
+        "eligibility": "CAI or reciprocal alpine club member",
+        "amount": 72,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board with own liner",
+        "eligibility": "Member up to 25",
+        "amount": 63,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board in large dormitory",
+        "eligibility": "Non-member",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board in large dormitory",
+        "eligibility": "CAI or reciprocal alpine club member",
+        "amount": 66,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board in large dormitory",
+        "eligibility": "Member up to 25",
+        "amount": 56,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Verified the official operator-linked PDF visually, including all three eligibility columns. Overnight tariff states maximum three nights; confirm longer stays separately.",
+      "Use of liner mandatory. Card required for member prices. The tariff specifies non-member children up to 18 receive junior-member overnight prices; older youths receive ordinary member overnight prices. Discount totals are not recalculated."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-107176085": {
+    "hutId": "osm-way-107176085",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:45:16.967162+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiomarmolada.it/overnight-stays.php",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Bed only",
+        "eligibility": "Room · June",
+        "amount": 42,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Room · July",
+        "amount": 47,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Room · August",
+        "amount": 47,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Room · September",
+        "amount": 42,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Room · December–March",
+        "amount": 57,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Room · June",
+        "amount": 53,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Room · July",
+        "amount": 58,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Room · August",
+        "amount": 58,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Room · September",
+        "amount": 53,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Room · December–March",
+        "amount": 78,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Room · June",
+        "amount": 75,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Room · July",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Room · August",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Room · September",
+        "amount": 75,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Dormitory · June",
+        "amount": 29,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Dormitory · July",
+        "amount": 34,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Dormitory · August",
+        "amount": 34,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Dormitory · September",
+        "amount": 29,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Dormitory · December–March",
+        "amount": 44,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Dormitory · June",
+        "amount": 40,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Dormitory · July",
+        "amount": 45,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Dormitory · August",
+        "amount": 45,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Dormitory · September",
+        "amount": 40,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · December–March",
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · June",
+        "amount": 61,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · July",
+        "amount": 66,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · August",
+        "amount": 66,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · September",
+        "amount": 61,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Published periods: 26 December 2025–5 April 2026 and 15 June–27 September 2026. Bed-only winter amounts are blank and are not invented.",
+      "Tourist tax and drinks extra. Dogs welcome with €4 additional cleaning charge."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-129947081": {
+    "hutId": "osm-way-129947081",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:45:16.967183+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiopradidali.com/eng/INFOS_%26_prices.html",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "CAI member",
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Non-member",
+        "amount": 82,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. This is the only readable accommodation package; other rates require enquiry."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-111825720": {
+    "hutId": "osm-way-111825720",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:45:16.967188+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiosettimoalpini.it/prezzi/",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Summer half-board",
+        "eligibility": "Standard rate",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "UIAGM mountain guide",
+        "amount": 40,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer half-board",
+        "eligibility": "Child under 12",
+        "amount": 48,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Summer bed only",
+        "eligibility": "Dormitory",
+        "amount": 32,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "CAI and associated Alpine Club members receive a published 20% discount on the marked standard half-board price; discounted total is not calculated. Valid card required. Breakfast separately €13; hot shower €5."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-196574882": {
+    "hutId": "osm-way-196574882",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T19:45:16.967191+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.zsigmondyhuette.com/it/baita-a-sesto/pernottamento-prezzi.html",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Bunk accommodation",
+        "amount": 86,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Bed accommodation",
+        "amount": 98,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. Double bunk room separately lists €105 per person, but does not explicitly identify its meal package; confirm this option with operator. Cancellation/no-show amounts are excluded from accommodation prices."
+    ],
+    "evidence": "Read the official accommodation tariff, room and eligibility columns, package labels and published year where stated. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-203462698": {
+    "hutId": "osm-way-203462698",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T21:03:22.358618+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiotorredipisa.it/pernottamento.asp?lang=eng",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed only",
+        "eligibility": "Bunk bed with mattress and blanket",
+        "amount": 46,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Shared dormitory",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. Breakfast separately €10, not added to bed-only price. Drinks extra; shower €5; liner required, rental €5 per person/night."
+    ],
+    "evidence": "Read the official accommodation page and verified package, room conditions and amount units. No explicit tariff year published.",
+    "availability": "Not checked"
+  },
+  "osm-way-41875349": {
+    "hutId": "osm-way-41875349",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T21:03:22.358638+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugioresciesa.com/en/lodging.html",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Shared room · standard rate",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Shared room · Alpine Club member",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Shared room for single use",
+        "amount": 90,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Double room",
+        "amount": 140,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Double room with bunk bed",
+        "amount": 115,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Double room for single use",
+        "amount": 170,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Infant under 1 year",
+        "amount": 0,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Child age 1–2 · confirm age boundary",
+        "amount": 15,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "All listed room prices explicitly per person/night, including double-room amounts. Linen, towels, shower and final cleaning included; dinner à la carte extra.",
+      "Year not stated. CAI discount only for shared rooms with valid Alpine Club membership. Children up to 12 have a €5 reduction, not calculated. Dogs cannot stay overnight."
+    ],
+    "evidence": "Read the official accommodation page and verified package, room conditions and amount units. No explicit tariff year published.",
+    "availability": "Not checked"
+  },
+  "osm-way-152621133": {
+    "hutId": "osm-way-152621133",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T21:03:22.358644+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.stoefflhuette.it/en/bedtime",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Room · stay of 1–3 nights",
+        "amount": 95,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Room · stay of at least 4 nights",
+        "amount": 90,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · stay of 1–3 nights",
+        "amount": 70,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Dormitory · stay of at least 4 nights",
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. Longer-stay prices require at least four nights. Single occupancy +30%, not calculated. Dogs only in rooms, €15/night extra.",
+      "Infants ages 0–3 listed free, but ages 3–10 also listed at 20% discount. Confirm age-3 boundary; no zero infant rate imported until clarified. Dormitory requires own liner."
+    ],
+    "evidence": "Read the official accommodation page and verified package, room conditions and amount units. No explicit tariff year published.",
+    "availability": "Not checked"
+  },
+  "osm-node-1424260978": {
+    "hutId": "osm-node-1424260978",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T21:03:22.358655+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.klausnerhuette.it/zimmer",
+    "year": null,
+    "rates": [
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Double room · Alpine Club member",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Double room · Non-member",
+        "amount": 60,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Double bunk room · Alpine Club member",
+        "amount": 50,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Double bunk room · Non-member",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "8-bed room · Alpine Club member",
+        "amount": 45,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "8-bed room · Non-member",
+        "amount": 50,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "10-bed room · Alpine Club member",
+        "amount": 45,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "10-bed room · Non-member",
+        "amount": 50,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. Shared showers included; dinner à la carte extra. Own liner requested; €4 cleaning fee if unused. Cash only.",
+      "Published discounts: under 18 20%, under 12 50%, under 6 80%; no discounted totals calculated. Member card required."
+    ],
+    "evidence": "Read the official accommodation page and verified package, room conditions and amount units. No explicit tariff year published.",
+    "availability": "Not checked"
+  },
+  "osm-way-534302143": {
+    "hutId": "osm-way-534302143",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T21:03:22.358660+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiovallaccia.it/le-camere/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Double room",
+        "amount": 98,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "5- or 8-bed room",
+        "amount": 88,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. Linen provided; hot shower extra. Dogs in double rooms €10/day. Under 6 receive 50% reduction; under 14 20%, not calculated."
+    ],
+    "evidence": "Read the official accommodation page and verified package, room conditions and amount units. No explicit tariff year published.",
+    "availability": "Not checked"
+  },
+  "osm-way-199053221": {
+    "hutId": "osm-way-199053221",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T21:07:00.460979+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugiocavallera.it/wp-content/uploads/2026/03/ListinoCavalleraInverno2526.pdf",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Hut accommodation",
+        "amount": 65,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Rental tent",
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Own tent",
+        "amount": 50,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Hut accommodation",
+        "amount": 20,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Hut accommodation",
+        "amount": 35,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Age 11–14 · hut accommodation",
+        "amount": 52,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Age 11–14 · rental tent",
+        "amount": 45,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Age 4–10 · hut accommodation",
+        "amount": 42,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Age 4–10 · rental tent",
+        "amount": 35,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Operator-linked PDF visually inspected. Its title says 2026 despite winter 2025–26 filename; no season inferred from filename. Tent packages retained separately from hut beds.",
+      "Infant half-board is listed free, but Italian age wording 0–3 years not completed differs from English 0–3. Confirm eligibility at age three; no zero rate imported. Tourist tax €1.50 extra; liner hire €5 or purchase €20."
+    ],
+    "evidence": "Read the official accommodation tariff and verified eligibility columns, packages and original published amounts. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-196574943": {
+    "hutId": "osm-way-196574943",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T21:07:00.461007+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.rifugioberti.it/prenotazioni/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "2- or 4-bed room · Non-member",
+        "amount": 80,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "2- or 4-bed room · CAI or European Alpine Club member",
+        "amount": 64,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "2- or 4-bed room · Italian CAI member under 25 or other European Alpine Club member under 18",
+        "amount": 56,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Social dormitory · Non-member",
+        "amount": 68,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Social dormitory · CAI or European Alpine Club member",
+        "amount": 54,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Social dormitory · Italian CAI member under 25 or other European Alpine Club member under 18",
+        "amount": 47.5,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Social dormitory · Non-member",
+        "amount": 32,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Social dormitory · CAI or European Alpine Club member",
+        "amount": 25,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed only",
+        "eligibility": "Social dormitory · Italian CAI member under 25 or other European Alpine Club member under 18",
+        "amount": 22,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Tariff year not stated. 2- or 4-bed rooms cannot be reserved as individual places; confirm full-room booking requirements. Shared dormitory permits individual beds.",
+      "Personal liner required. Hot shower extra, subject to water availability. Bed-only excludes breakfast; buffet breakfast separately €12."
+    ],
+    "evidence": "Read the official accommodation tariff and verified eligibility columns, packages and original published amounts. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-way-199553709": {
+    "hutId": "osm-way-199553709",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T21:08:33.629756+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.fuciade.it/de/zimmer/",
+    "year": 2026,
+    "rates": [
+      {
+        "package": "Half-board",
+        "eligibility": "Summer 1 June–11 July",
+        "amount": 145,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Summer 12–31 July",
+        "amount": 150,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Summer 1–31 August",
+        "amount": 160,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Summer 1–6 September",
+        "amount": 150,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Half-board",
+        "eligibility": "Summer 7 September–4 October",
+        "amount": 145,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Summer 1 June–11 July",
+        "amount": 110,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Summer 12–31 July",
+        "amount": 115,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Summer 1–31 August",
+        "amount": 125,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Summer 1–6 September",
+        "amount": 115,
+        "currency": "EUR",
+        "unit": "per person / night"
+      },
+      {
+        "package": "Bed and breakfast",
+        "eligibility": "Summer 7 September–4 October",
+        "amount": 110,
+        "currency": "EUR",
+        "unit": "per person / night"
+      }
+    ],
+    "notes": [
+      "Private bathroom rooms for 2–4 guests; rates are per person, not whole-room totals. Half-board includes à la carte dinner, drinks extra. Tourist tax €1.50/night from age 14.",
+      "Official page contradicts itself on dog extra (€15 and €10/day). Confirm this extra before booking. Children 0–2 listed €20/day with meal basis unclear; children 3–7 50% discount and 8–12 30%, not calculated."
+    ],
+    "evidence": "Read the official accommodation tariff and verified eligibility columns, packages and original published amounts. Availability not checked.",
+    "availability": "Not checked"
+  },
+  "osm-node-439594940": {
+    "hutId": "osm-node-439594940",
+    "status": "checked",
+    "verification": "chat_reviewed",
+    "checkedAt": "2026-10-13T21:08:33.629773+00:00",
+    "reviewDueAt": "2026-11-13T23:59:59.000Z",
+    "sourceUrl": "https://www.plosehuette.com/pacchetti-inverno-2026-2027/",
+    "year": null,
+    "rates": [
+      {
+        "package": "Winter 2026–27 Superpremière half-board",
+        "eligibility": "Season opening–19 December 2026 · no ski pass",
+        "amount": 390,
+        "currency": "EUR",
+        "unit": "per person / stay",
+        "stayNights": 4,
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 Superpremière half-board with ski pass",
+        "eligibility": "Season opening–19 December 2026",
+        "amount": 550,
+        "currency": "EUR",
+        "unit": "per person / stay",
+        "stayNights": 4,
+        "year": 2026
+      },
+      {
+        "package": "Winter 2026–27 ski-week half-board",
+        "eligibility": "9–30 January 2027 · no ski pass",
+        "amount": 712,
+        "currency": "EUR",
+        "unit": "per person / stay",
+        "stayNights": 7,
+        "year": 2027
+      },
+      {
+        "package": "Winter 2026–27 ski-week half-board with ski pass",
+        "eligibility": "9–30 January 2027",
+        "amount": 1000,
+        "currency": "EUR",
+        "unit": "per person / stay",
+        "stayNights": 7,
+        "year": 2027
+      }
+    ],
+    "notes": [
+      "These amounts are totals per person for four or seven nights, not nightly rates. Operator promotion charges four nights for three or seven nights for six; do not divide totals to estimate nightly prices.",
+      "January ski-pass first validity day 10 January 2027. Equipment and lesson promotions have separate conditions; confirm inclusion with operator. Spring offer separately lists €390 without linking that amount to a single stay length; not imported."
+    ],
+    "evidence": "Read the official accommodation tariff and verified eligibility columns, packages and original published amounts. Availability not checked.",
+    "availability": "Not checked"
+  }
+}

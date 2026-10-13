@@ -1,27 +1,218 @@
 {
- "osm-relation-19526395": {
-  "site": "https://www.rifugiogalassi.it/en_GB/",
-  "checkedAt": "2026-10-10",
-  "source": "https://www.rifugiogalassi.it/en_GB/"
- },
- "osm-way-121491779": {
-  "site": "https://rifugiobiella.it/en/",
-  "checkedAt": "2026-10-10",
-  "source": "https://rifugiobiella.it/en/"
- },
- "osm-way-83855898": {
-  "site": "https://drei-schuster-huette.com/it/",
-  "checkedAt": "2026-10-10",
-  "source": "https://drei-schuster-huette.com/it/"
- },
- "osm-way-196574944": {
-  "site": "https://www.rifugiocarducci.eu/",
-  "checkedAt": "2026-10-10",
-  "source": "https://www.rifugiocarducci.eu/"
- },
- "osm-way-202148123": {
-  "site": "https://www.caitreviso.it/rifugi/rifugio-antelao/",
-  "checkedAt": "2026-10-10",
-  "source": "https://www.caitreviso.it/rifugi/rifugio-antelao/"
- }
+  "osm-relation-19526395": {
+    "site": "https://www.rifugiogalassi.it/en_GB/",
+    "checkedAt": "2026-10-10",
+    "source": "https://www.rifugiogalassi.it/en_GB/"
+  },
+  "osm-way-121491779": {
+    "site": "https://rifugiobiella.it/en/",
+    "checkedAt": "2026-10-10",
+    "source": "https://rifugiobiella.it/en/"
+  },
+  "osm-way-83855898": {
+    "site": "https://drei-schuster-huette.com/it/",
+    "checkedAt": "2026-10-10",
+    "source": "https://drei-schuster-huette.com/it/"
+  },
+  "osm-way-196574944": {
+    "site": "https://www.rifugiocarducci.eu/",
+    "checkedAt": "2026-10-10",
+    "source": "https://www.rifugiocarducci.eu/"
+  },
+  "osm-way-202148123": {
+    "site": "https://www.caitreviso.it/rifugi/rifugio-antelao/",
+    "checkedAt": "2026-10-10",
+    "source": "https://www.caitreviso.it/rifugi/rifugio-antelao/"
+  },
+  "osm-way-118944262": {
+    "site": "https://www.longolbe.com/english/alpine-hut-langalm/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.longolbe.com/english/alpine-hut-langalm/"
+  },
+  "osm-way-200217365": {
+    "site": "https://www.rifugioaquileia.it/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugioaquileia.it/"
+  },
+  "osm-way-200785544": {
+    "site": "https://rifugiocittadicarpi.it/",
+    "checkedAt": "2026-10-13",
+    "source": "https://rifugiocittadicarpi.it/",
+    "replaceSource": true,
+    "reason": "Previous .com domain is parked for sale; verified .it operator site replaces it."
+  },
+  "osm-way-186519266": {
+    "site": "https://sites.google.com/view/rifugio-bosi/home-page",
+    "checkedAt": "2026-10-13",
+    "source": "https://sites.google.com/view/rifugio-bosi/home-page"
+  },
+  "osm-way-200226213": {
+    "site": "https://www.da-aurelio.it/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.da-aurelio.it/"
+  },
+  "osm-way-200220255": {
+    "site": "https://www.rifugiosassobianco.it/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugiosassobianco.it/"
+  },
+  "osm-way-200789472": {
+    "site": "https://rifugiovandelli.it/",
+    "checkedAt": "2026-10-13",
+    "source": "https://rifugiovandelli.it/"
+  },
+  "osm-way-200223566": {
+    "site": "https://valfiorentinadolomiti.it/it/Ristoro-Fertazza/Home_Ristoro_Fertazza/Benvenuti-Rifugio-Fertazza.html",
+    "checkedAt": "2026-10-13",
+    "source": "https://valfiorentinadolomiti.it/it/Ristoro-Fertazza/Home_Ristoro_Fertazza/Benvenuti-Rifugio-Fertazza.html"
+  },
+  "osm-way-35941936": {
+    "site": "https://rifugiocaseratartoi.it/",
+    "checkedAt": "2026-10-13",
+    "source": "https://rifugiocaseratartoi.it/"
+  },
+  "osm-way-383877717": {
+    "site": "https://www.rifugiochiggiato.it/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugiochiggiato.it/"
+  },
+  "osm-way-84653322": {
+    "site": "https://www.albaciampac.it/en/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.albaciampac.it/en/"
+  },
+  "osm-way-383859034": {
+    "site": "https://www.rifugiociareido.it/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugiociareido.it/"
+  },
+  "osm-way-107176081": {
+    "site": "https://www.rifugiocimaundici.it/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugiocimaundici.it/"
+  },
+  "osm-way-208885817": {
+    "site": "https://www.rifugiodolada.it/en/home-2/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugiodolada.it/en/home-2/"
+  },
+  "osm-way-36021744": {
+    "site": "https://rifugiomaniago.it/",
+    "checkedAt": "2026-10-13",
+    "source": "https://rifugiomaniago.it/"
+  },
+  "osm-way-199506055": {
+    "site": "https://www.rifugiofalier.altervista.org/index-en.html",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugiofalier.altervista.org/index-en.html"
+  },
+  "osm-way-199056277": {
+    "site": "https://www.rifugioscarpa.com/hospitality",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugioscarpa.com/hospitality"
+  },
+  "osm-way-399458941": {
+    "site": "https://www.rifugiorefavaie.com/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugiorefavaie.com/"
+  },
+  "osm-way-59721521": {
+    "site": "https://www.rifugiovederna.com/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugiovederna.com/"
+  },
+  "osm-way-123303946": {
+    "site": "https://sillianerhuette.at/leistungen/",
+    "checkedAt": "2026-10-13",
+    "source": "https://sillianerhuette.at/leistungen/"
+  },
+  "osm-way-68826696": {
+    "site": "https://montipallidi.it/en",
+    "checkedAt": "2026-10-13",
+    "source": "https://montipallidi.it/en"
+  },
+  "osm-way-361715944": {
+    "site": "https://rifugiocauriol.it/en/",
+    "checkedAt": "2026-10-13",
+    "source": "https://rifugiocauriol.it/en/"
+  },
+  "osm-way-199514203": {
+    "site": "https://becderoces.it/en/rooms-summer/",
+    "checkedAt": "2026-10-13",
+    "source": "https://becderoces.it/en/rooms-summer/"
+  },
+  "osm-way-201457898": {
+    "site": "https://www.eremodeiromiti.it/info.html",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.eremodeiromiti.it/info.html"
+  },
+  "osm-way-180141573": {
+    "site": "https://www.rifugioboz.it/en/prices-and-booking/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugioboz.it/en/prices-and-booking/"
+  },
+  "osm-way-382561795": {
+    "site": "https://rifugiomonterite.it/tariffe-prenotazioni.html",
+    "checkedAt": "2026-10-13",
+    "source": "https://rifugiomonterite.it/tariffe-prenotazioni.html"
+  },
+  "osm-way-42253280": {
+    "site": "https://www.rifugioforcellapordoi.com/en/rooms-and-prices/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugioforcellapordoi.com/en/rooms-and-prices/"
+  },
+  "osm-way-199514207": {
+    "site": "https://rifugiokostner.it/it/prezzi",
+    "checkedAt": "2026-10-13",
+    "source": "https://rifugiokostner.it/it/prezzi"
+  },
+  "osm-way-36021790": {
+    "site": "https://rifugiopussa.it/prezzario",
+    "checkedAt": "2026-10-13",
+    "source": "https://rifugiopussa.it/prezzario"
+  },
+  "osm-way-122118920": {
+    "site": "https://www.rifugiostellaalpinaspizpiaz.it/prezzi/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugiostellaalpinaspizpiaz.it/prezzi/"
+  },
+  "osm-way-127204302": {
+    "site": "https://www.capannacervino.it/prezzi-estate",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.capannacervino.it/prezzi-estate"
+  },
+  "osm-way-98576829": {
+    "site": "https://www.dibaita.it/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.dibaita.it/",
+    "replaceSource": true,
+    "reason": "Previous recorded domain returned unrelated content; replacement operator page matches the hut name and location."
+  },
+  "osm-way-152250683": {
+    "site": "https://www.rifugioprincipe.com/it/",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugioprincipe.com/it/",
+    "replaceSource": true,
+    "reason": "Previous recorded domain returned unrelated content; replacement operator page matches the hut name and location."
+  },
+  "osm-way-122023472": {
+    "site": "https://gardeccia.it/en/dormire-in-rifugio",
+    "checkedAt": "2026-10-13",
+    "source": "https://gardeccia.it/en/dormire-in-rifugio"
+  },
+  "osm-way-42227260": {
+    "site": "https://www.rifugiopisciadu.it/it/16-contenuto/36-informazioni-sui-nostri-prezzi.html",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.rifugiopisciadu.it/it/16-contenuto/36-informazioni-sui-nostri-prezzi.html"
+  },
+  "osm-way-122374773": {
+    "site": "https://rifugioleselle.wixsite.com/ilmiosito/contatti-e-info?lang=en",
+    "checkedAt": "2026-10-13",
+    "source": "https://rifugioleselle.wixsite.com/ilmiosito/contatti-e-info?lang=en"
+  },
+  "osm-way-152222844": {
+    "site": "https://www.schutzhaus-rittner-horn.com/de/unterkunft",
+    "checkedAt": "2026-10-13",
+    "source": "https://www.schutzhaus-rittner-horn.com/de/unterkunft"
+  }
 }
