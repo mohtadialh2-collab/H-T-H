@@ -35,3 +35,21 @@ test('Cinque Torri preserves both rooms and packages and reads only the explicit
  assert.throws(()=>parse(page+ '<p>RATES AND CONDITIONS 2025 SEASON</p>','cinque'));
  assert.throws(()=>parse(page.replace('Dormitory:*','Suite:'),'cinque'));
 });
+test('Tre Scarperi preserves free child accommodation and all age, room and member rates',()=>{
+ const page=fs.readFileSync(path.join(__dirname,'fixtures/scarperi-prices.html'),'utf8'),r=parse(page,'scarperi');
+ assert.equal(r.year,null);assert.equal(r.rates.length,20);assert.deepEqual(r.rates.slice(0,2).map(r=>r.amount),[0,0]);
+ assert.deepEqual(r.rates.slice(-6).map(r=>r.amount),[70,80,74,84,79,89]);assert.match(r.rates.at(-1).eligibility,/Ages 14 and above · Nonmembers/);
+ assert.throws(()=>parse(page.replace('79 €','Ask operator'),'scarperi'));
+ assert.throws(()=>parse(page.replace('NON SOCI','Guests'),'scarperi'));
+ assert.throws(()=>parse(page.replace('a partire da 14 anni','Adult prices'),'scarperi'));
+ assert.throws(()=>parse(page.replace('MP camera doppia','MP suite'),'scarperi'));
+});
+test('Lagazuoi retains season years and room units without treating dinners or extras as accommodation',()=>{
+ const page=fs.readFileSync(path.join(__dirname,'fixtures/lagazuoi-prices.html'),'utf8'),r=parse(page,'lagazuoi');
+ assert.equal(r.year,null);assert.equal(r.rates.length,14);assert.equal(r.rates.filter(r=>r.unit==='per person / night').length,2);assert.equal(r.rates.filter(r=>r.unit==='per room / night').length,12);assert.deepEqual(r.rates.slice(0,2).map(r=>r.year),[2026,2027]);assert(r.rates.every(r=>r.amount>=85));
+ assert.equal(parse(page+page,'lagazuoi').rates.length,14);
+ assert.throws(()=>parse(page.replace('€ 260,00','Ask operator'),'lagazuoi'));
+ assert.throws(()=>parse(page+page.replaceAll('€ 260,00','€ 270,00'),'lagazuoi'));
+ assert.throws(()=>parse(page.replace('Double room in BB','Suite in BB'),'lagazuoi'));
+ assert.throws(()=>parse(page.replace('Winter 2027','Winter prices'),'lagazuoi'));
+});

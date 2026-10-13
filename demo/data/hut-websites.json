@@ -1,5 +1,27 @@
 {
- "osm-relation-19526395":{"site":"https://www.rifugiogalassi.it/en_GB/","checkedAt":"2026-10-10","source":"https://www.rifugiogalassi.it/en_GB/"},
- "osm-way-121491779":{"site":"https://rifugiobiella.it/en/","checkedAt":"2026-10-10","source":"https://rifugiobiella.it/en/"},
- "osm-way-83855898":{"site":"https://drei-schuster-huette.com/it/","checkedAt":"2026-10-10","source":"https://drei-schuster-huette.com/it/"}
+ "osm-relation-19526395": {
+  "site": "https://www.rifugiogalassi.it/en_GB/",
+  "checkedAt": "2026-10-10",
+  "source": "https://www.rifugiogalassi.it/en_GB/"
+ },
+ "osm-way-121491779": {
+  "site": "https://rifugiobiella.it/en/",
+  "checkedAt": "2026-10-10",
+  "source": "https://rifugiobiella.it/en/"
+ },
+ "osm-way-83855898": {
+  "site": "https://drei-schuster-huette.com/it/",
+  "checkedAt": "2026-10-10",
+  "source": "https://drei-schuster-huette.com/it/"
+ },
+ "osm-way-196574944": {
+  "site": "https://www.rifugiocarducci.eu/",
+  "checkedAt": "2026-10-10",
+  "source": "https://www.rifugiocarducci.eu/"
+ },
+ "osm-way-202148123": {
+  "site": "https://www.caitreviso.it/rifugi/rifugio-antelao/",
+  "checkedAt": "2026-10-10",
+  "source": "https://www.caitreviso.it/rifugi/rifugio-antelao/"
+ }
 }
